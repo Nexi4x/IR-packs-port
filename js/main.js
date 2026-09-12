@@ -29,16 +29,16 @@ const trainsData = [
         description: "Пассажирский электровоз ЭП1М. Используется для вождения пассажирских составов на переменном токе.",
         image: "images/trains/ep1m.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/1czp32fvVQlcthzTGT7RJAMm3y7qCDnRA/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/1ECyetVWGgkezxK7yCqUvnM0U_J6CF5My/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/1_uNRVcGvSTG3slQ3ONqbOHQXu8C3S2zk/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/1wYKZF2lHV5ATfY5j6NWEh4MzjlqK6Spc/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/1kebxyJVgFUSYma88_fng1k9fMoglm83g/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/1bxM3Ayjtmh3ntRR0bNKXsR0aBZnTfz8u/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/1Z15VI7HOu3cpX4kDU3rLsP3HQwlUYgJ6/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/15tjeodkUApbn87OIBorELTPdoGMtJnTP/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/19TcXTFil9M-1GC2CLresILxzI8QdfIfm/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "178 MB  Google Drive", url: "https://drive.google.com/file/d/1lROB0vnEHFz2kow9-NnH1I_0OZW9ITm1/view?usp=drive_link" }
         ]
     },
     {
