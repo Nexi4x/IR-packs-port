@@ -100,9 +100,9 @@ const trainsData = [
     },
     {
         id: 6,
-        name: "Электропоезд ЭР2-1122",
+        name: "Электропоезд ЭР2",
         category: "electric",
-        description: "Электропоезд ЭР2-1122 в ремейк-версии. Классический советский пригородный электропоезд.",
+        description: "Электропоезд ЭР2. Классический советский пригородный электропоезд.",
         image: "images/trains/er2_1122.jpg",
         versions: [
             { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
@@ -235,7 +235,7 @@ const trainsData = [
         id: 13,
         name: "Маневровый тепловоз ЧМЭ3 (Škoda)",
         category: "diesel",
-        description: "Маневровый тепловоз ЧМЭ3 от Škoda в окраске UkraineRailways.",
+        description: "Маневровый тепловоз ЧМЭ3 от UkraineRailways.",
         image: "images/trains/chme3_skoda.jpg",
         versions: [
             { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
@@ -423,10 +423,10 @@ const trainsData = [
     },
     {
         id: 23,
-        name: "Пассажирский вагон ТВЗ 61-4440",
+        name: "Пассажирский вагон ТВЗ 61-4465",
         category: "passenger",
-        description: "Пассажирский вагон ТВЗ 61-4440. Модель с текстурами RAFFIC TEXEL BY ZD.",
-        image: "images/wagons/tvz_61_4440.jpg",
+        description: "Пассажирский двухэтажный вагон ТВЗ 61-4465.",
+        image: "images/wagons/tvz_61_4465.jpg",
         versions: [
             { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
             { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
