@@ -84,18 +84,18 @@ const trainsData = [
         name: "Электровоз ЭП2К",
         category: "electric",
         description: "Пассажирский электровоз ЭП2К постоянного тока. Один из основных пассажирских электровозов РЖД.",
-        image: "images/trains/ep2k.jpg",
+        image: "images/trains/ч",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/16gGjdPpqfbcvdqr6xgC3FXfjP6xqPhJp/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/11UuuaNOzaB62KztuoOMLxom7QdJ7EZlS/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/1GHlfr9UBSBcB3_RUaquj_AYj1NpcCjmK/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/1DG0k6U2oskcX4Cuj4TkoqodTrbrWU4EY/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/1RNM7YiNZzGS22Y-78EDDS_rXB6lxks6U/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/1By2y0kDcwxMOQnXkQG4tvvX6wnJMkCwJ/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/1BX_HdavAtkaNZslOppu0aK0YlbO7IvHZ/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/1eVw-UjHjRZ2VqJ1ro-M8AGO6cZlpWdwO/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/1ndFzOJwAidxGCJh0cJIid3qbAQLLKj6x/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/1N4g2iLkRe7eoaMPMZ-JyfX96ZD5dG4Hl/view?usp=drive_link" }
         ]
     },
     {
