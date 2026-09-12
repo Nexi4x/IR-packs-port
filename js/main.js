@@ -5,76 +5,291 @@
 const trainsData = [
     {
         id: 1,
-        name: "Паровоз Эр 797-15",
-        category: "steam",
-        description: "Легендарный советский паровоз серии Эр. Один из самых массовых паровозов в мире.",
-        image: "images/trains/er797.jpg",
+        name: "Электропоезд ЭД4М (РЖД)",
+        category: "electric",
+        description: "Пригородный электропоезд ЭД4М в окраске РЖД. Пассажирская модель для маршрутов постоянного тока.",
+        image: "images/trains/ed4m_rzd.jpg",
         versions: [
-            { mcVersion: "1.12.2", size: "45 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", size: "46 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", size: "47 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", size: "48 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "zectc_ed4m_4ov_rzd_1.20.1_x2.zip" }
         ]
     },
     {
         id: 2,
-        name: "Тепловоз ТЭ3",
-        category: "diesel",
-        description: "Классический советский грузовой тепловоз. Двухсекционный, с характерным дизайном.",
-        image: "images/trains/te3.jpg",
+        name: "Электровоз ЭП1М",
+        category: "electric",
+        description: "Пассажирский электровоз ЭП1М. Используется для вождения пассажирских составов на переменном токе.",
+        image: "images/trains/ep1m.jpg",
         versions: [
-            { mcVersion: "1.12.2", size: "52 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", size: "53 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", size: "55 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Электровоз ЭП1М_1.20.1.zip" }
         ]
     },
     {
         id: 3,
-        name: "Электровоз ВЛ80с",
+        name: "Электровоз ЧС6",
         category: "electric",
-        description: "Мощный советский электровоз для работы на переменном токе.",
-        image: "images/trains/vl80.jpg",
+        description: "Скоростной пассажирский электровоз ЧС6. Версия v0.1 by Ghost.",
+        image: "images/trains/chs6.jpg",
         versions: [
-            { mcVersion: "1.12.2", size: "38 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", size: "39 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", size: "40 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.2", size: "41 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", size: "42 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "«ЧС6» v0.1 by Ghost_1.20.1.zip" }
         ]
     },
     {
         id: 4,
-        name: "Пассажирский вагон",
-        category: "passenger",
-        description: "Классический пассажирский вагон для составов дальнего следования.",
-        image: "images/trains/passenger.jpg",
+        name: "Тепловоз 2М62",
+        category: "diesel",
+        description: "Двухсекционный грузовой тепловоз 2М62. Модель by Timoha.",
+        image: "images/trains/2m62.jpg",
         versions: [
-            { mcVersion: "1.12.2", size: "25 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", size: "26 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", size: "28 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "2М62 (by Timoha)_1.20.1.zip" }
         ]
     },
     {
         id: 5,
-        name: "Паровоз СО17-2211",
-        category: "steam",
-        description: "Мощный грузовой паровоз серии СО. Известен как 'Серго'.",
-        image: "images/trains/so17.jpg",
+        name: "Электровоз ЭП2К",
+        category: "electric",
+        description: "Пассажирский электровоз ЭП2К постоянного тока. Один из основных пассажирских электровозов РЖД.",
+        image: "images/trains/ep2k.jpg",
         versions: [
-            { mcVersion: "1.12.2", size: "48 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", size: "49 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Электровоз ЭП2К (1)_1.20.1.zip" }
         ]
     },
     {
         id: 6,
-        name: "Тепловоз 2ТЭ116",
-        category: "diesel",
-        description: "Современный российский грузовой тепловоз с электрической передачей.",
-        image: "images/trains/2te116.jpg",
+        name: "Электропоезд ЭР2-1122",
+        category: "electric",
+        description: "Электропоезд ЭР2-1122 в ремейк-версии. Классический советский пригородный электропоезд.",
+        image: "images/trains/er2_1122.jpg",
         versions: [
-            { mcVersion: "1.16.5", size: "55 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", size: "56 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", size: "58 MB", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Электропоезд ЭР2-1122 (Ремейк)_1.20.1…zip" }
+        ]
+    },
+    {
+        id: 7,
+        name: "Дизельпоезд ДТ1 «Торжокский»",
+        category: "diesel",
+        description: "Дизельпоезд ДТ1 «Торжокский» в ремейк-версии. Подходит для пригородных неэлектрифицированных линий.",
+        image: "images/trains/dt1_torzhok.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Дизельпоезд_Торжокский_ДТ_1_Remade…zip" }
+        ]
+    },
+    {
+        id: 8,
+        name: "Электровоз ВЛ10у",
+        category: "electric",
+        description: "Грузовой электровоз ВЛ10у. Модель от 254KRAN.",
+        image: "images/trains/vl10u.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Электровоз ВЛ10у(254KRAN) (1)_1.20.1.zip" }
+        ]
+    },
+    {
+        id: 9,
+        name: "Электровоз ВЛ10у-574",
+        category: "electric",
+        description: "Электровоз ВЛ10у-574. Модель от 254KRAN с индивидуальными особенностями.",
+        image: "images/trains/vl10u_574.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Электровоз ВЛ10у-574(254KRAN)_1.20.1…zip" }
+        ]
+    },
+    {
+        id: 10,
+        name: "Тепловоз ТЭП70 (Коломентепловоз)",
+        category: "diesel",
+        description: "Пассажирский тепловоз ТЭП70 от ПАО «Коломентепловоз».",
+        image: "images/trains/tep70.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "ПАО «Коломентепловоз»_ТЭП70_«LIM…zip" }
+        ]
+    },
+    {
+        id: 11,
+        name: "Электровоз ЧС7",
+        category: "electric",
+        description: "Пассажирский электровоз ЧС7. Модель MTS.",
+        image: "images/trains/chs7.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Электровоз ЧС7 (MTS) (1) (1)_1.20.1.zip" }
+        ]
+    },
+    {
+        id: 12,
+        name: "Электровоз ВЛ60К (НЭВЗ)",
+        category: "electric",
+        description: "Электровоз ВЛ60К от НЭВЗ. Грузопассажирский электровоз переменного тока.",
+        image: "images/trains/vl60k.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "НЭВЗ ВЛ60К_1.20.1.zip" }
+        ]
+    },
+    {
+        id: 13,
+        name: "Маневровый тепловоз ЧМЭ3 (Škoda)",
+        category: "diesel",
+        description: "Маневровый тепловоз ЧМЭ3 от Škoda в окраске UkraineRailways.",
+        image: "images/trains/chme3_skoda.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "«Skoda» ЧМЭ3 «UkraineRailways»_1.20.1…zip" }
+        ]
+    },
+    {
+        id: 14,
+        name: "Тепловоз ЧМЭ3 (старая версия)",
+        category: "diesel",
+        description: "Старая версия маневрового тепловоза ЧМЭ3.",
+        image: "images/trains/chme3_old.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "старый ЧМЕ3_1.20.1.zip" }
+        ]
+    },
+    {
+        id: 15,
+        name: "Тепловоз 2ТЭ25КМ",
+        category: "diesel",
+        description: "Грузовой тепловоз 2ТЭ25КМ. Модель Dark_Angel.",
+        image: "images/trains/2te25km.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "2ТЭ25КМ_Dark_Angel_1.20.1.zip" }
+        ]
+    },
+    {
+        id: 16,
+        name: "Автомотриса РА2-090",
+        category: "diesel",
+        description: "Автомотриса РА2-090 для пригородных и малодеятельных участков.",
+        image: "images/trains/ra2_090.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "RA2_090_1.20.1.zip" }
+        ]
+    },
+    {
+        id: 17,
+        name: "МВП-ИР (межрегиональный пассажирский вагон)",
+        category: "passenger",
+        description: "Межрегиональный пассажирский вагон МВП-ИР. Модель by FrozeRain.",
+        image: "images/wagons/mvp_ir.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "MVP-IR-1.8-mc1.12.2-by-FrozeRain_1.20…zip" }
+        ]
+    },
+    {
+        id: 18,
+        name: "Полувагон 12-119",
+        category: "freight",
+        description: "Грузовой полувагон 12-119. Модель «Vg» в окраске UkraineRailways.",
+        image: "images/wagons/half_wagon_12_119.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "«Vg» Полувагон 12-119 «UkraineRailwa…zip" }
+        ]
+    },
+    {
+        id: 19,
+        name: "Крытый вагон 11-270",
+        category: "freight",
+        description: "Крытый грузовой вагон 11-270. Модель «Vg» в окраске UkraineRailways.",
+        image: "images/wagons/boxcar_11_270.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "«Vg» Крытый вагон 11-270 «UkraineRail…zip" }
+        ]
+    },
+    {
+        id: 20,
+        name: "Цистерна 68 т 15-1566",
+        category: "freight",
+        description: "Грузовая цистерна 68 т модели 15-1566. Модель «Vg» в окраске UkraineRailways.",
+        image: "images/wagons/tank_15_1566.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "«Vg» Цистерна 68т 15-1566 «UkraineRai…zip" }
+        ]
+    },
+    {
+        id: 21,
+        name: "Хоппер 19-7053-02",
+        category: "freight",
+        description: "Грузовой хоппер 19-7053-02. Модель «Vg» в окраске UkraineRailways.",
+        image: "images/wagons/hopper_19_7053.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "«Vg» Хоппер 19-7053-02 «UkraineRailw…zip" }
+        ]
+    },
+    {
+        id: 22,
+        name: "Платформа 13-401",
+        category: "freight",
+        description: "Грузовая платформа 13-401. Модель «Vg» в окраске UkraineRailways.",
+        image: "images/wagons/platform_13_401.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "«Vg» Платформа 13-401 «UkraineRailw…zip" }
+        ]
+    },
+    {
+        id: 23,
+        name: "Пассажирский вагон ТВЗ 61-4440",
+        category: "passenger",
+        description: "Пассажирский вагон ТВЗ 61-4440. Модель с текстурами RAFFIC TEXEL BY ZD.",
+        image: "images/wagons/tvz_61_4440.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "TVZ_61-4440_RAFFIC_TEXEL_BY-ZD_mai…zip" }
+        ]
+    },
+    {
+        id: 24,
+        name: "Вагон-ресторан «Невский экспресс»",
+        category: "passenger",
+        description: "Вагон-ресторан состава «Невский экспресс». Модель RTS.",
+        image: "images/wagons/nevsky_restaurant.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Невский Экспресс - Ресторан (RTS)_1.20…zip" }
+        ]
+    },
+    {
+        id: 25,
+        name: "Вагон 2 класса «Невский экспресс»",
+        category: "passenger",
+        description: "Пассажирский вагон 2 класса состава «Невский экспресс». Модель RTS.",
+        image: "images/wagons/nevsky_2class.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Невский Экспресс - 2 класс (RTS)_1.20.1…zip" }
+        ]
+    },
+    {
+        id: 26,
+        name: "Вагон РЦЦ",
+        category: "passenger",
+        description: "Пассажирский вагон РЦЦ. Модель RTS.",
+        image: "images/wagons/rcc_wagon.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Вагон РЦЦ (RTS) (1)_1.20.1.zip" }
+        ]
+    },
+    {
+        id: 27,
+        name: "Пассажирские вагоны «Хрущёвка»",
+        category: "passenger",
+        description: "Пак пассажирских вагонов «Хрущёвка». Модель RTS.",
+        image: "images/wagons/khrushchevka.jpg",
+        versions: [
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing", fileName: "Хрущёвый Пак (RTS)_1.20.1.zip" }
+        ]
+    },
+    {
+        id: 28,
+        name: "Пассажирские вагоны «Аммендорф» (старые)",
+        category: "passenger",
+        description: "Старые пассажирские вагоны «Аммендорф» в классическом исполнении. Поддерживаются все указанные версии Minecraft.",
+        image: "images/wagons/ammendorf_old.jpg",
+        versions: [
+            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
+            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
+            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
+            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
+            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
+            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
+            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
+            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
+            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
+            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
         ]
     }
 ];
