@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrainCraft - Модели поездов для IR</title>
+    <meta name="description" content="Модели поездов для Immersive Railroading в Minecraft">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Анимированный фон -->
+    <div class="bg-animation">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <span class="logo-icon">🚂</span>
+                <span class="logo-text">TrainCraft</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Главная</a></li>
+                <li><a href="#trains" class="nav-link">Поезда</a></li>
+                <li><a href="#about" class="nav-link">О проекте</a></li>
+                <li><a href="#contacts" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Главная секция -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Модели поездов</span>
+                <span class="title-line gradient-text">для Immersive Railroading</span>
+            </h1>
+            <p class="hero-subtitle">Портировано с 1.12.2 на любую версию</p>
+            <div class="hero-buttons">
+                <a href="#trains" class="btn btn-primary">
+                    <span>Смотреть модели</span>
+                    <div class="btn-glow"></div>
+                </a>
+                <a href="https://youtube.com" target="_blank" class="btn btn-secondary">
+                    <span>YouTube</span>
+                </a>
+                <a href="https://t.me" target="_blank" class="btn btn-secondary">
+                    <span>Telegram</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Листай вниз</span>
+        </div>
+    </section>
+
+    <!-- Секция поездов -->
+    <section id="trains" class="trains-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-bg">Коллекция</span>
+                Доступные модели
+            </h2>
+            
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="steam">Паровозы</button>
+                <button class="filter-btn" data-filter="diesel">Тепловозы</button>
+                <button class="filter-btn" data-filter="electric">Электровозы</button>
+                <button class="filter-btn" data-filter="passenger">Пассажирские</button>
+            </div>
+
+            <div class="trains-grid" id="trainsGrid">
+                <!-- Карточки загружаются через JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Модальное окно выбора версии -->
+    <div class="modal" id="versionModal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <h3 class="modal-title">Выбор версии</h3>
+            <p class="modal-subtitle" id="modalTrainName"></p>
+            <div class="versions-list" id="versionsList">
+                <!-- Версии загружаются через JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Секция о проекте -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content glass-card">
+                <h2 class="section-title">О проекте</h2>
+                <div class="about-text">
+                    <p>Я научился портировать модели поездов с Minecraft 1.12.2 на любую версию для мода Immersive Railroading.</p>
+                    <p>На этом сайте ты найдёшь коллекцию качественных моделей, готовых к использованию в твоём мире.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="15">0</span>
+                            <span class="stat-label">Моделей</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="8">0</span>
+                            <span class="stat-label">Версий MC</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-count="1000">0</span>
+                            <span class="stat-label">Скачиваний</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <a href="https://youtube.com" target="_blank" class="footer-link">YouTube</a>
+                    <a href="https://t.me" target="_blank" class="footer-link">Telegram</a>
+                    <a href="mailto:email@example.com" class="footer-link">Email</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Полезное</h4>
+                    <a href="#" class="footer-link">Как установить</a>
+                    <a href="#" class="footer-link">FAQ</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TrainCraft. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
