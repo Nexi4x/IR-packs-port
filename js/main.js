@@ -48,16 +48,16 @@ const trainsData = [
         description: "Скоростной пассажирский электровоз ЧС6. Версия v0.1 by Ghost.",
         image: "images/trains/chs6.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/19M4cH9UQIHsqMicO32wpMHxScAweTapi/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/1_Qxr9YP64N7fAeSoGgK3Wc6qeAjAe1N9/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/1i-cpEe-xXT7azZAqQrAnzkjlgKhp-s3h/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/14KcAJvPw_z5cn14TbfkfU0q2lqYJXGOg/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/1fE1G2hAgX8HygypLWe0C53n6H44RVt5S/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/1MEYIWTe9yu6erAXqHFHeVstG1Sukub3C/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/17HTEgO4i2JGWrue0PST9r2Cu4HC1rWfo/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/1suD935iF3pF0nQ6Eho_an5SpTTYbeIQe/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/1Jy1ous0o_L6gum632fWIgn7kcizXIB54/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "135 MB  Google Drive", url: "https://drive.google.com/file/d/1gILPHh2osbXYGp-VWTYZwUZJr6uqWeTj/view?usp=drive_link" }
         ]
     },
     {
