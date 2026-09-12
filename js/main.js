@@ -10,16 +10,16 @@ const trainsData = [
         description: "Пригородный электропоезд ЭД4М в окраске РЖД. Пассажирская модель для маршрутов постоянного тока.",
         image: "images/trains/ed4m_rzd.jpg",
         versions: [
-            { mcVersion: "1.12.2", size: "265 MB", url: "https://drive.google.com/file/d/1CrxANX4VQJ5dwu7K2x8sOl0_7SwfT8KK/view?usp=drive_link" },
-            { mcVersion: "1.14.4", size: "265 MB", url: "https://drive.google.com/file/d/1dw2XeQzpXOBNpNByXYkEv24gjXJ6oinz/view?usp=drive_link" },
-            { mcVersion: "1.15.2", size: "265 MB", url: "https://drive.google.com/file/d/1OF2XLlp3Gjg5-sFi-Le7-BqPlUtLTJ0U/view?usp=drive_link" },
-            { mcVersion: "1.16.5", size: "265 MB", url: "https://drive.google.com/file/d/1S3uPYUOHJ5_k5GEmWhg2RdNapb18k8OV/view?usp=drive_link" },
-            { mcVersion: "1.17.1", size: "265 MB", url: "https://drive.google.com/file/d/1l8p6jg-hxW-buF5KRQTFhxotJmhTpik9/view?usp=drive_link" },
-            { mcVersion: "1.18.2", size: "265 MB", url: "https://drive.google.com/file/d/1e_VLMsUVDf_bWs3cJgqkZkyol53BmmuU/view?usp=drive_link" },
-            { mcVersion: "1.19.4", size: "265 MB", url: "https://drive.google.com/file/d/1rM678gi2MYypRv2nexAS9WFLbKdyqm9h/view?usp=drive_link" },
-            { mcVersion: "1.20.1", size: "265 MB", url: "https://drive.google.com/file/d/1_CVBAOA1zZT-z6i-b6x1BZg0l6HCVQEu/view?usp=drive_link" },
-            { mcVersion: "1.21.1", size: "265 MB", url: "https://drive.google.com/file/d/1s6FdgM1k6V9BMvpoX-63AFWi7sd_ECsg/view?usp=drive_link" },
-            { mcVersion: "1.21.4", size: "265 MB", url: "https://drive.google.com/file/d/1s3VOKBo_dtCVANfRoxbav1Z7Et9EBANg/view?usp=drive_link" }
+            { mcVersion: "1.12.2", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1CrxANX4VQJ5dwu7K2x8sOl0_7SwfT8KK/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1dw2XeQzpXOBNpNByXYkEv24gjXJ6oinz/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1OF2XLlp3Gjg5-sFi-Le7-BqPlUtLTJ0U/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1S3uPYUOHJ5_k5GEmWhg2RdNapb18k8OV/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1l8p6jg-hxW-buF5KRQTFhxotJmhTpik9/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1e_VLMsUVDf_bWs3cJgqkZkyol53BmmuU/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1rM678gi2MYypRv2nexAS9WFLbKdyqm9h/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1_CVBAOA1zZT-z6i-b6x1BZg0l6HCVQEu/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1s6FdgM1k6V9BMvpoX-63AFWi7sd_ECsg/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "265 MB  Google Drive", url: "https://drive.google.com/file/d/1s3VOKBo_dtCVANfRoxbav1Z7Et9EBANg/view?usp=drive_link" }
         ]
     },
     {
