@@ -252,21 +252,21 @@ const trainsData = [
     },
     {
         id: 14,
-        name: "Тепловоз ЧМЭ3 (старая версия)",
+        name: "Тепловоз ЧМЭ3 (списанный)",
         category: "diesel",
-        description: "Старая версия маневрового тепловоза ЧМЭ3.",
+        description: "Списанная версия маневрового тепловоза ЧМЭ3.",
         image: "images/trains/chme3_old.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/1DY9Ig8P7TckpZvd_3Ewl97uDtkbvft07/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/1798jiOJ0Kc2ud-iX7fIizV4SphG3rilW/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/1c5jIEShBcn_3_wNdNClFwdpRSn4KhLRo/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/1GpB2AMUAmHEmD646GePmshNuZX94jDub/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/1z7u4cKtdtSYCGocFVYqJJNSWUUNSxXsO/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/1bZZ91XdXDQYRehnPophfBHCpfuwpjEO2/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/1A8hWQ1bnFJUY2A0rW7MtpkHBJk_4Nh09/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/1NiLdzaqELyy69oWOxbaKp2JVX38rFNNx/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/113Tvrbr8PnOYGwxds-jwYoiEbCWESnZu/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "1.2 MB  Google Drive", url: "https://drive.google.com/file/d/1VsIInvup2VNbY5LS6LPSLmVAQCnNz1Al/view?usp=drive_link" }
         ]
     },
     {
