@@ -84,7 +84,7 @@ const trainsData = [
         name: "Электровоз ЭП2К",
         category: "electric",
         description: "Пассажирский электровоз ЭП2К постоянного тока. Один из основных пассажирских электровозов РЖД.",
-        image: "images/trains/ч",
+        image: "images/trains/ep2k.jpg",
         versions: [
             { mcVersion: "1.12.2", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/16gGjdPpqfbcvdqr6xgC3FXfjP6xqPhJp/view?usp=drive_link" },
             { mcVersion: "1.14.4", size: "86 MB  Google Drive", url: "https://drive.google.com/file/d/11UuuaNOzaB62KztuoOMLxom7QdJ7EZlS/view?usp=drive_link" },
