@@ -151,16 +151,16 @@ const trainsData = [
         description: "Грузовой электровоз ВЛ10у. Модель от 254KRAN.",
         image: "images/trains/vl10u.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/1rsc9mqhyXQ8gMNRBabzJj3PivY_6a_p3/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/1TkG0Hixsay3f8-wamlCHkVGGsMwAGBvs/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/1_tNDkHm_BoblNH-OpDLQYkyR0FejEaCK/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/1868g4KPgSZIrGGXCY4J7Vhqbfjdm0E1c/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/1y48ivqtbEiV_Yjcpo1Kch8-aHpY2a5wA/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/1z3GTUhzvVqLt7DKz_GRcQHUsCKjjOzQV/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/11vKJD7RXZl6H2ovSQENnLmMwxXoG-v4i/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/1ejv1Ien9_vmuBZjQhK-6pcU9jYb5UYFJ/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/1RaEoyaUa_Ao7CMtTi66JiPLItOhgQVkL/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "76 MB  Google Drive", url: "https://drive.google.com/file/d/1oPoK7tZEIhGucQyxnrq6PPnD4NjyfgZL/view?usp=drive_link" }
         ]
     },
     {
