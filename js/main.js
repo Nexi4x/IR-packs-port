@@ -211,36 +211,36 @@ const trainsData = [
         description: "Пассажирский электровоз ЧС7. Модель MTS.",
         image: "images/trains/chs7.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/1RpfSu4F_hiB3jrQ1A6ot8ymVeeIcp3Jb/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/1hOWCTFcyxpa7gt5FNb-LwFlE6R8ZcNaa/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/1DtZ1OHpWrcBBqbGUx8RiHKpAWGJ4A5lD/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/1SA8nNeahjlHl6b0NeX_Zl88t03H-m4kH/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/1LpHnyX4L9M_oiQSZE-3TI32xD3rWVQtE/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/15k68ki0y1R2d0GtLiCwU9ZdEtCJtH_pC/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/1liCoBN9ofXwAwspgpZuB_sH62i2lX3Xr/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/18ko_PGq7uZYGkjXObiN0EPUpb22xdpWl/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/10ddBIzb7Xo7we_zyNj4qCKoxOGSAHKGM/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "63 MB  Google Drive", url: "https://drive.google.com/file/d/1gLOK4szCimJ4VDRwQHKiI1Ewvd_FCeQJ/view?usp=drive_link" }
         ]
     },
     {
         id: 12,
         name: "Электровоз ВЛ60К (НЭВЗ)",
         category: "electric",
-        author: "Неизвестно",
+        author: " ДС = Украинские Ж/Д",
         description: "Электровоз ВЛ60К от НЭВЗ. Грузопассажирский электровоз переменного тока.",
         image: "images/trains/vl60k.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1NNzF2LjeKY4NCyM_o48y8hG9aVRsbdVL/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1dXX4MKRkmDmMC-MUABd6e3g1W2ORI50O/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1yF2C98VquMHaF1GLuo1OBBanzm6g1BqJ/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1iBw6Flt1ezuvt-FoCUTX35Kk-oud0Kwv/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1L4KkD2M6JVauznkH9cqQe5DoxbLVWFZM/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1D3GcSi2ridnGfb4BCAi8Zp9MfxLb4BQA/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1JqVSD36Rpg5xGWbDRJsmV_Fq5F0nGI61/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1yCkyHFuVpQNBOK4tsIWAmSu8R0-_ZtsM/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1_QOYzYS6r9_Tyl_fc3WPjp7sYL7T4Xoo/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1iqfadViz3cgYWTtSxVyi6w5zrEdbFgF4/view?usp=drive_link" }
         ]
     },
     {
@@ -251,16 +251,16 @@ const trainsData = [
         description: "Маневровый тепловоз ЧМЭ3 от UkraineRailways.",
         image: "images/trains/chme3_skoda.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/1YA86H_qhXG9HF5VDF4ZPhlX4NDpgpU2e/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/1gNXwUrqpGM71Zsg5dTW17X0VAfn4BV4W/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/1KeGUS_Vo9cH67e3BC2SoFMaA2jod4Yda/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/17Ncu9GtT-M-ZQhxXTZL9PbGMeufoGYiJ/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/1vTtvHzyMIUEOdsGZPq6Ov0-mqKtswnwu/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/1AVmyDFX51-yDcWGUnvC1Trxgcf-Oien_/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/1JpG04Yv6wD4Hee4CMqhFiduix64vsMoc/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/1sr4h7Asr4_-Z487SxOgTY70vazHoudtG/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/1v-aNn6LhM7z2mLPLo7tYN4MzYxovKHG4/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "30 MB  Google Drive", url: "https://drive.google.com/file/d/1L3T0xJk1ro2P6IwuQmlJQY-1NKtoBBzC/view?usp=drive_link" }
         ]
     },
     {
