@@ -7,7 +7,7 @@ const trainsData = [
         id: 1,
         name: "Электропоезд ЭД4М (РЖД)",
         category: "electric",
-        author: "Nexi4x",
+        author: "Zeotq",
         description: "Пригородный электропоезд ЭД4М в окраске РЖД. Пассажирская модель для маршрутов постоянного тока.",
         image: "images/trains/ed4m_rzd.jpg",
         versions: [
