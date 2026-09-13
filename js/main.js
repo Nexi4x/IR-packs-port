@@ -111,16 +111,16 @@ const trainsData = [
         description: "Электропоезд ЭР2. Классический советский пригородный электропоезд.",
         image: "images/trains/er2_1122.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/15MmRyynlsZsgZCCGlJ449kMnAJ5xCkKT/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/1wcGQBEItPCEFPcRV4yAp39LhBtYvX3qL/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/1CkJzPmHWOMQzjrFE8aaufJ4PMndrJb1r/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/1026hDD3-4jXi-rDR7bWFrQn0mGBkglMY/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/1026hDD3-4jXi-rDR7bWFrQn0mGBkglMY/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/12bxgdVpc7WtNy_98hN_Q4noJ52KYyE4p/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/12bxgdVpc7WtNy_98hN_Q4noJ52KYyE4p/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/1iuemckRbbd6o6U-tW4gJnyhLijDo3Uf1/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/1rHS0tAZbtdAo5VkuEtfFjZkoAJTkHlPu/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "83 MB  Google Drive", url: "https://drive.google.com/file/d/1rHS0tAZbtdAo5VkuEtfFjZkoAJTkHlPu/view?usp=drive_link" }
         ]
     },
     {
