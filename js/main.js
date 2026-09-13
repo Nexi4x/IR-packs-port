@@ -191,16 +191,16 @@ const trainsData = [
         description: "Пассажирский тепловоз ТЭП70 от ПАО «Коломентепловоз».",
         image: "images/trains/tep70.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/1yuVxI8lSn6uLlWUDgXcaOvBRqyc2Wo2U/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/1JwWH11mxC8BvuHARITngxabmeZLfo9XB/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/1EFKtryldtumrsq4BhgiUOj3AHx2PIozC/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/1QqSBXo7RfQFcpA52pesG3A5uXaMljeKH/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/12z5KG4aFXZkhHSTfYmpI5uRMrThaYZED/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/1_0a1vhGVmMMaW9tAVtdfcWjAaRJdqAzW/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/19QwIqh1_vz-UE_3SuZCaxQW7Q0uV_HQ0/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/1fCLlIy8GsdIEp3KgNHEYBwSBHEMpz12P/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/1xVBrqgkF1Nz52afIDOCTatfLpNij0Prz/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "71 MB  Google Drive", url: "https://drive.google.com/file/d/1WXBk20eVNFfyDO5o7avD_Qk-ljmI60rw/view?usp=drive_link" }
         ]
     },
     {
