@@ -71,16 +71,16 @@ const trainsData = [
         description: "Двухсекционный грузовой тепловоз 2М62. Модель by Timoha.",
         image: "images/trains/2m62.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1TYn_HTfyalpjj1tq3c8dZ81NndmH7vxs/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1sRdoGt1ld1BiqEpq_4rp9j93pE36m9Oi/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1fpYRzZe_WhmHybiX0ClRZGtAju1bYcHU/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1SgXjc66vyny71jbMlTt5Fy0DPrHIf1rK/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1rvK30Q2UUPbGzDQir5DmPa7INVdD-kTL/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1L-WIJZ9x3BupkN2MK0AFADa6EfYDvgth/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1PdRpeIvKXqF5Xll4_zC98ajJoARp9e-W/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1rlK_Baugg2tFdhRUvpX52sQgn2e8-eHu/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1wwNZb_uKk0AJZPV18uFt6Qk4_1T3Rkaj/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "93 MB  Google Drive", url: "https://drive.google.com/file/d/1AEvZ8Wo09cQQ55W-EhjjbMdEwg3h782Y/view?usp=drive_link" }
         ]
     },
     {
