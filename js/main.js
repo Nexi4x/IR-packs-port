@@ -27,7 +27,7 @@ const trainsData = [
         id: 2,
         name: "Электровоз ЭП1М",
         category: "electric",
-        author: "Nexi4x",
+        author: "Неизвестно",
         description: "Пассажирский электровоз ЭП1М. Используется для вождения пассажирских составов на переменном токе.",
         image: "images/trains/ep1m.jpg",
         versions: [
@@ -67,7 +67,7 @@ const trainsData = [
         id: 4,
         name: "Тепловоз 2М62",
         category: "diesel",
-        author: "Timoha",
+        author: "Timoha x 254 Кран",
         description: "Двухсекционный грузовой тепловоз 2М62. Модель by Timoha.",
         image: "images/trains/2m62.jpg",
         versions: [
@@ -87,7 +87,7 @@ const trainsData = [
         id: 5,
         name: "Электровоз ЭП2К",
         category: "electric",
-        author: "Nexi4x",
+        author: "254 Кран",
         description: "Пассажирский электровоз ЭП2К постоянного тока. Один из основных пассажирских электровозов РЖД.",
         image: "images/trains/ep2k.jpg",
         versions: [
@@ -107,7 +107,7 @@ const trainsData = [
         id: 6,
         name: "Электропоезд ЭР2",
         category: "electric",
-        author: "Nexi4x",
+        author: "PROIR_MC",
         description: "Электропоезд ЭР2. Классический советский пригородный электропоезд.",
         image: "images/trains/er2_1122.jpg",
         versions: [
@@ -127,7 +127,7 @@ const trainsData = [
         id: 7,
         name: "Дизельпоезд ДТ1 «Торжокский»",
         category: "diesel",
-        author: "Nexi4x",
+        author: "Неизвестно",
         description: "Дизельпоезд ДТ1 «Торжокский» в ремейк-версии. Подходит для пригородных неэлектрифицированных линий.",
         image: "images/trains/dt1_torzhok.jpg",
         versions: [
@@ -147,7 +147,7 @@ const trainsData = [
         id: 8,
         name: "Электровоз ВЛ10у",
         category: "electric",
-        author: "254KRAN",
+        author: "254 Кран",
         description: "Грузовой электровоз ВЛ10у. Модель от 254KRAN.",
         image: "images/trains/vl10u.jpg",
         versions: [
@@ -167,7 +167,7 @@ const trainsData = [
         id: 9,
         name: "Электровоз ВЛ10у-574",
         category: "electric",
-        author: "254KRAN",
+        author: "254 Кран",
         description: "Электровоз ВЛ10у-574. Модель от 254KRAN с индивидуальными особенностями.",
         image: "images/trains/vl10u_574.jpg",
         versions: [
@@ -187,7 +187,7 @@ const trainsData = [
         id: 10,
         name: "Тепловоз ТЭП70 (Коломентепловоз)",
         category: "diesel",
-        author: "Nexi4x",
+        author: "Limpiks",
         description: "Пассажирский тепловоз ТЭП70 от ПАО «Коломентепловоз».",
         image: "images/trains/tep70.jpg",
         versions: [
@@ -227,7 +227,7 @@ const trainsData = [
         id: 12,
         name: "Электровоз ВЛ60К (НЭВЗ)",
         category: "electric",
-        author: "Nexi4x",
+        author: "Неизвестно",
         description: "Электровоз ВЛ60К от НЭВЗ. Грузопассажирский электровоз переменного тока.",
         image: "images/trains/vl60k.jpg",
         versions: [
@@ -267,7 +267,7 @@ const trainsData = [
         id: 14,
         name: "Тепловоз ЧМЭ3 (списанный)",
         category: "diesel",
-        author: "Nexi4x",
+        author: "Неизвестно",
         description: "Списанная версия маневрового тепловоза ЧМЭ3.",
         image: "images/trains/chme3_old.jpg",
         versions: [
@@ -305,10 +305,10 @@ const trainsData = [
     },
     {
         id: 16,
-        name: "Автомотриса РА2-090",
+        name: "Автомотриса РА2",
         category: "diesel",
-        author: "Nexi4x",
-        description: "Автомотриса РА2-090 для пригородных и малодеятельных участков.",
+        author: "Zeotq",
+        description: "Автомотриса РА2 для пригородных и малодеятельных участков.",
         image: "images/trains/ra2_090.jpg",
         versions: [
             { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
@@ -447,7 +447,7 @@ const trainsData = [
         id: 23,
         name: "Пассажирский вагон ТВЗ 61-4465",
         category: "passenger",
-        author: "Nexi4x",
+        author: "RTS",
         description: "Пассажирский двухэтажный вагон ТВЗ 61-4465.",
         image: "images/wagons/tvz_61_4465.jpg",
         versions: [
