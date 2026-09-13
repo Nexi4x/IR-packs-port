@@ -239,7 +239,7 @@ const trainsData = [
             { mcVersion: "1.18.2", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1D3GcSi2ridnGfb4BCAi8Zp9MfxLb4BQA/view?usp=drive_link" },
             { mcVersion: "1.19.4", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1JqVSD36Rpg5xGWbDRJsmV_Fq5F0nGI61/view?usp=drive_link" },
             { mcVersion: "1.20.1", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1yCkyHFuVpQNBOK4tsIWAmSu8R0-_ZtsM/view?usp=drive_link" },
-            { mcVersion: "1.21.1", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1_QOYzYS6r9_Tyl_fc3WPjp7sYL7T4Xoo/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1_QOYzYS6r9_Tyl_fc3WPjp5sYL7T4Xoo/view?usp=drive_link" },
             { mcVersion: "1.21.4", size: "40 MB  Google Drive", url: "https://drive.google.com/file/d/1iqfadViz3cgYWTtSxVyi6w5zrEdbFgF4/view?usp=drive_link" }
         ]
     },
@@ -562,7 +562,7 @@ const trainsData = [
             { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
             { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
         ]
-    }
+    },
 ];
 
 // ============================================
@@ -577,6 +577,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initModal();
     initScrollAnimations();
     initCounters();
+    initSmoothScroll();
 });
 
 // ============================================
@@ -585,14 +586,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function initHeader() {
     const header = document.querySelector('.header');
-    
+    let ticking = false;
+
+    // ИЗМЕНЕНО: скролл через requestAnimationFrame вместо
+    // прямого вызова на каждое событие — меньше лишних перерисовок
     window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            header.classList.add('scrolled');
-        } else {
-            header.classList.remove('scrolled');
+        if (!ticking) {
+            window.requestAnimationFrame(() => {
+                header.classList.toggle('scrolled', window.scrollY > 50);
+                ticking = false;
+            });
+            ticking = true;
         }
-    });
+    }, { passive: true });
 }
 
 // ============================================
@@ -602,12 +608,12 @@ function initHeader() {
 function initBurger() {
     const burger = document.querySelector('.burger');
     const navLinks = document.querySelector('.nav-links');
-    
+
     burger.addEventListener('click', () => {
         burger.classList.toggle('active');
         navLinks.classList.toggle('active');
     });
-    
+
     document.querySelectorAll('.nav-link').forEach(link => {
         link.addEventListener('click', () => {
             burger.classList.remove('active');
@@ -622,12 +628,12 @@ function initBurger() {
 
 function initFilters() {
     const filterBtns = document.querySelectorAll('.filter-btn');
-    
+
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            
+
             const filter = btn.dataset.filter;
             renderTrains(filter);
         });
@@ -641,52 +647,74 @@ function initFilters() {
 function renderTrains(filter) {
     const grid = document.getElementById('trainsGrid');
     grid.innerHTML = '';
-    
-    const filtered = filter === 'all' 
-        ? trainsData 
+
+    const filtered = filter === 'all'
+        ? trainsData
         : trainsData.filter(train => train.category === filter);
-    
-    filtered.forEach((train, index) => {
-        const card = createTrainCard(train, index);
-        grid.appendChild(card);
-    });
+
+    // ИЗМЕНЕНО: собираем HTML одной строкой и вставляем одним
+    // действием — вместо 28 отдельных appendChild+reflow
+    grid.innerHTML = filtered.map((train, index) => createTrainCardHTML(train, index)).join('');
 }
 
-function createTrainCard(train, index) {
-    const card = document.createElement('div');
-    card.className = 'train-card';
-    card.style.animationDelay = `${index * 0.1}s`;
-    
+// ИЗМЕНЕНО: локальная SVG-заглушка вместо via.placeholder.com
+// (сервис мёртв, картинки битые + лишний внешний запрос)
+function getPlaceholder(name) {
+    const safeName = (name || 'Модель').slice(0, 30);
+    const svg =
+        '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="220">' +
+        '<rect width="400" height="220" fill="#1a1a2e"/>' +
+        '<text x="200" y="115" fill="#667eea" font-family="sans-serif" font-size="16" text-anchor="middle">' + safeName + '</text>' +
+        '</svg>';
+    return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+}
+
+function createTrainCardHTML(train, index) {
     const categoryNames = {
         steam: 'Паровоз',
         diesel: 'Тепловоз',
         electric: 'Электровоз',
-        passenger: 'Пассажирский'
+        passenger: 'Пассажирский',
+        freight: 'Грузовой' // ИЗМЕНЕНО: новая категория
     };
-    
-    card.innerHTML = `
-        <img src="${train.image}" alt="${train.name}" class="train-image" onerror="this.src='https://via.placeholder.com/400x220/1a1a2e/667eea?text=${encodeURIComponent(train.name)}'">
-        <div class="train-info">
-            <span class="train-category category-${train.category}">${categoryNames[train.category]}</span>
-            <h3 class="train-name">${train.name}</h3>
-            ${train.author ? `<p class="train-description"><strong>Автор:</strong> ${train.author}</p>` : ''}
-            <p class="train-description">${train.description}</p>
-            <div class="train-versions">
-                ${train.versions.map(v => `<span class="version-tag">${v.mcVersion}</span>`).join('')}
-            </div>
-            <div class="train-actions">
-                <button class="btn-download" onclick="openVersionModal(${train.id})">
-                    Скачать
-                </button>
-                <button class="btn-info" onclick="showInfo(${train.id})">
-                    Инфо
-                </button>
+
+    return `
+        <div class="train-card" style="animation-delay: ${Math.min(index * 0.05, 0.5)}s">
+            <img src="${train.image}" alt="${train.name}" class="train-image" loading="lazy" decoding="async"
+                 onerror="this.onerror=null;this.src='${getPlaceholder(train.name)}'">
+            <div class="train-info">
+                <span class="train-category category-${train.category}">${categoryNames[train.category] || train.category}</span>
+                <h3 class="train-name">${train.name}</h3>
+                ${train.author ? `<p class="train-description"><strong>Автор:</strong> ${train.author}</p>` : ''}
+                <p class="train-description">${train.description}</p>
+                <div class="train-versions">
+                    ${train.versions.map(v => `<span class="version-tag">${v.mcVersion}</span>`).join('')}
+                </div>
+                <div class="train-actions">
+                    <button class="btn-download" data-train-id="${train.id}">
+                        Скачать
+                    </button>
+                    <button class="btn-info" data-train-id="${train.id}">
+                        Инфо
+                    </button>
+                </div>
             </div>
         </div>
     `;
-    
-    return card;
 }
+
+// ИЗМЕНЕНО: один делегированный обработчик на сетку вместо
+// 56 инлайн-onclick (onclick="openVersionModal(...)" больше нет)
+document.addEventListener('click', (e) => {
+    const downloadBtn = e.target.closest('.btn-download');
+    const infoBtn = e.target.closest('.btn-info');
+
+    if (downloadBtn) {
+        openVersionModal(Number(downloadBtn.dataset.trainId));
+    } else if (infoBtn) {
+        showInfo(Number(infoBtn.dataset.trainId));
+    }
+});
 
 // ============================================
 // МОДАЛЬНОЕ ОКНО ВЕРСИЙ
@@ -696,10 +724,10 @@ function initModal() {
     const modal = document.getElementById('versionModal');
     const closeBtn = modal.querySelector('.modal-close');
     const backdrop = modal.querySelector('.modal-backdrop');
-    
+
     closeBtn.addEventListener('click', closeVersionModal);
     backdrop.addEventListener('click', closeVersionModal);
-    
+
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') closeVersionModal();
     });
@@ -708,30 +736,28 @@ function initModal() {
 function openVersionModal(trainId) {
     const modal = document.getElementById('versionModal');
     const train = trainsData.find(t => t.id === trainId);
-    
+
     if (!train) return;
-    
-    document.getElementById('modalTrainName').textContent = 
+
+    document.getElementById('modalTrainName').textContent =
         train.author ? `${train.name} — Автор: ${train.author}` : train.name;
-    
+
     const versionsList = document.getElementById('versionsList');
     versionsList.innerHTML = '';
-    
-    train.versions.forEach(version => {
-        const item = document.createElement('div');
-        item.className = 'version-item';
-        item.innerHTML = `
+
+    // ИЗМЕНЕНО: собираем список версий одной строкой
+    versionsList.innerHTML = train.versions.map(version => `
+        <div class="version-item">
             <div class="version-info">
                 <span class="version-number">MC ${version.mcVersion}</span>
                 <span class="version-size">${version.size || ''}</span>
             </div>
-            <a href="${version.url}" target="_blank" class="btn-download-small">
+            <a href="${version.url}" target="_blank" rel="noopener" class="btn-download-small">
                 Скачать
             </a>
-        `;
-        versionsList.appendChild(item);
-    });
-    
+        </div>
+    `).join('');
+
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 }
@@ -749,7 +775,7 @@ function closeVersionModal() {
 function showInfo(trainId) {
     const train = trainsData.find(t => t.id === trainId);
     if (!train) return;
-    
+
     alert(`${train.name}${train.author ? `\nАвтор: ${train.author}` : ''}\n\n${train.description}\n\nДоступные версии: ${train.versions.map(v => v.mcVersion).join(', ')}`);
 }
 
@@ -762,16 +788,17 @@ function initScrollAnimations() {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
     };
-    
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.style.opacity = '1';
                 entry.target.style.transform = 'translateY(0)';
+                observer.unobserve(entry.target); // ИЗМЕНЕНО: отписываемся после показа
             }
         });
     }, observerOptions);
-    
+
     document.querySelectorAll('section').forEach(section => {
         section.style.opacity = '0';
         section.style.transform = 'translateY(40px)';
@@ -786,11 +813,11 @@ function initScrollAnimations() {
 
 function initCounters() {
     const counters = document.querySelectorAll('.stat-number');
-    
+
     const observerOptions = {
         threshold: 0.5
     };
-    
+
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -801,7 +828,7 @@ function initCounters() {
             }
         });
     }, observerOptions);
-    
+
     counters.forEach(counter => observer.observe(counter));
 }
 
@@ -810,7 +837,7 @@ function animateCounter(element, target) {
     const start = 0;
     const increment = target / (duration / 16);
     let current = start;
-    
+
     const timer = setInterval(() => {
         current += increment;
         if (current >= target) {
@@ -824,17 +851,23 @@ function animateCounter(element, target) {
 
 // ============================================
 // ПЛАВНЫЙ СКРОЛЛ
+// ИЗМЕНЕНО: обработчик навешивается один раз после
+// DOMContentLoaded (в init), а не в момент парсинга скрипта
 // ============================================
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-            target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
+function initSmoothScroll() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            const href = this.getAttribute('href');
+            if (href === '#') return; // заглушки "Как установить" / "FAQ" не ломают скролл
+            const target = document.querySelector(href);
+            if (target) {
+                e.preventDefault();
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
     });
-});
+}
