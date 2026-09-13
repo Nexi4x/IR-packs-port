@@ -127,20 +127,20 @@ const trainsData = [
         id: 7,
         name: "Дизельпоезд ДТ1 «Торжокский»",
         category: "diesel",
-        author: "Неизвестно",
+        author: "Limpiks",
         description: "Дизельпоезд ДТ1 «Торжокский» в ремейк-версии. Подходит для пригородных неэлектрифицированных линий.",
         image: "images/trains/dt1_torzhok.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/1psrlFyLFK8zThd6BwTs69i7A39MIFQn3/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/16Dz21-DmAiUuELQGtPuJHoOqqvnGnXka/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/1GxOjJBxNaiGgJgfeThWP7UTcqLHM-lro/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/1ZJRFch5XxOqmpMZC4JaKqDbuVfq4KPRG/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/1b6tWqBCiQy6-BC2odtyaXGneHVwLe29W/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/1kC-RtUn75QROC4pGdAl9dRN8t1t-nyrI/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/1-FAT8PHMVmDectWoFXSCT4oLm5aDixRl/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/1YXcsP8bGfKhUmp0Q-aC-5D97CHzjxnrP/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/1nfIChiCoVPcw3kmhNT2Ibj3cMK05RgPX/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "81 MB  Google Drive", url: "https://drive.google.com/file/d/1nfIChiCoVPcw3kmhNT2Ibj3cMK05RgPX/view?usp=drive_link" }
         ]
     },
     {
