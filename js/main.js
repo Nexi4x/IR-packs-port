@@ -7,6 +7,7 @@ const trainsData = [
         id: 1,
         name: "Электропоезд ЭД4М (РЖД)",
         category: "electric",
+        author: "Nexi4x",
         description: "Пригородный электропоезд ЭД4М в окраске РЖД. Пассажирская модель для маршрутов постоянного тока.",
         image: "images/trains/ed4m_rzd.jpg",
         versions: [
@@ -26,6 +27,7 @@ const trainsData = [
         id: 2,
         name: "Электровоз ЭП1М",
         category: "electric",
+        author: "Nexi4x",
         description: "Пассажирский электровоз ЭП1М. Используется для вождения пассажирских составов на переменном токе.",
         image: "images/trains/ep1m.jpg",
         versions: [
@@ -45,6 +47,7 @@ const trainsData = [
         id: 3,
         name: "Электровоз ЧС6",
         category: "electric",
+        author: "Ghost",
         description: "Скоростной пассажирский электровоз ЧС6. Версия v0.1 by Ghost.",
         image: "images/trains/chs6.jpg",
         versions: [
@@ -64,6 +67,7 @@ const trainsData = [
         id: 4,
         name: "Тепловоз 2М62",
         category: "diesel",
+        author: "Timoha",
         description: "Двухсекционный грузовой тепловоз 2М62. Модель by Timoha.",
         image: "images/trains/2m62.jpg",
         versions: [
@@ -83,6 +87,7 @@ const trainsData = [
         id: 5,
         name: "Электровоз ЭП2К",
         category: "electric",
+        author: "Nexi4x",
         description: "Пассажирский электровоз ЭП2К постоянного тока. Один из основных пассажирских электровозов РЖД.",
         image: "images/trains/ep2k.jpg",
         versions: [
@@ -102,6 +107,7 @@ const trainsData = [
         id: 6,
         name: "Электропоезд ЭР2",
         category: "electric",
+        author: "Nexi4x",
         description: "Электропоезд ЭР2. Классический советский пригородный электропоезд.",
         image: "images/trains/er2_1122.jpg",
         versions: [
@@ -121,6 +127,7 @@ const trainsData = [
         id: 7,
         name: "Дизельпоезд ДТ1 «Торжокский»",
         category: "diesel",
+        author: "Nexi4x",
         description: "Дизельпоезд ДТ1 «Торжокский» в ремейк-версии. Подходит для пригородных неэлектрифицированных линий.",
         image: "images/trains/dt1_torzhok.jpg",
         versions: [
@@ -140,6 +147,7 @@ const trainsData = [
         id: 8,
         name: "Электровоз ВЛ10у",
         category: "electric",
+        author: "254KRAN",
         description: "Грузовой электровоз ВЛ10у. Модель от 254KRAN.",
         image: "images/trains/vl10u.jpg",
         versions: [
@@ -159,6 +167,7 @@ const trainsData = [
         id: 9,
         name: "Электровоз ВЛ10у-574",
         category: "electric",
+        author: "254KRAN",
         description: "Электровоз ВЛ10у-574. Модель от 254KRAN с индивидуальными особенностями.",
         image: "images/trains/vl10u_574.jpg",
         versions: [
@@ -178,6 +187,7 @@ const trainsData = [
         id: 10,
         name: "Тепловоз ТЭП70 (Коломентепловоз)",
         category: "diesel",
+        author: "Nexi4x",
         description: "Пассажирский тепловоз ТЭП70 от ПАО «Коломентепловоз».",
         image: "images/trains/tep70.jpg",
         versions: [
@@ -197,6 +207,7 @@ const trainsData = [
         id: 11,
         name: "Электровоз ЧС7",
         category: "electric",
+        author: "MTS",
         description: "Пассажирский электровоз ЧС7. Модель MTS.",
         image: "images/trains/chs7.jpg",
         versions: [
@@ -216,6 +227,7 @@ const trainsData = [
         id: 12,
         name: "Электровоз ВЛ60К (НЭВЗ)",
         category: "electric",
+        author: "Nexi4x",
         description: "Электровоз ВЛ60К от НЭВЗ. Грузопассажирский электровоз переменного тока.",
         image: "images/trains/vl60k.jpg",
         versions: [
@@ -235,6 +247,7 @@ const trainsData = [
         id: 13,
         name: "Маневровый тепловоз ЧМЭ3 (Škoda)",
         category: "diesel",
+        author: "UkraineRailways",
         description: "Маневровый тепловоз ЧМЭ3 от UkraineRailways.",
         image: "images/trains/chme3_skoda.jpg",
         versions: [
@@ -254,6 +267,7 @@ const trainsData = [
         id: 14,
         name: "Тепловоз ЧМЭ3 (списанный)",
         category: "diesel",
+        author: "Nexi4x",
         description: "Списанная версия маневрового тепловоза ЧМЭ3.",
         image: "images/trains/chme3_old.jpg",
         versions: [
@@ -273,6 +287,7 @@ const trainsData = [
         id: 15,
         name: "Тепловоз 2ТЭ25КМ",
         category: "diesel",
+        author: "Dark_Angel",
         description: "Грузовой тепловоз 2ТЭ25КМ. Модель Dark_Angel.",
         image: "images/trains/2te25km.jpg",
         versions: [
@@ -292,6 +307,7 @@ const trainsData = [
         id: 16,
         name: "Автомотриса РА2-090",
         category: "diesel",
+        author: "Nexi4x",
         description: "Автомотриса РА2-090 для пригородных и малодеятельных участков.",
         image: "images/trains/ra2_090.jpg",
         versions: [
@@ -311,6 +327,7 @@ const trainsData = [
         id: 17,
         name: "МВП-ИР (межрегиональный пассажирский вагон)",
         category: "passenger",
+        author: "FrozeRain",
         description: "Межрегиональный пассажирский вагон МВП-ИР. Модель by FrozeRain.",
         image: "images/wagons/mvp_ir.jpg",
         versions: [
@@ -330,6 +347,7 @@ const trainsData = [
         id: 18,
         name: "Полувагон 12-119",
         category: "freight",
+        author: "UkraineRailways",
         description: "Грузовой полувагон 12-119. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/half_wagon_12_119.jpg",
         versions: [
@@ -349,6 +367,7 @@ const trainsData = [
         id: 19,
         name: "Крытый вагон 11-270",
         category: "freight",
+        author: "UkraineRailways",
         description: "Крытый грузовой вагон 11-270. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/boxcar_11_270.jpg",
         versions: [
@@ -368,6 +387,7 @@ const trainsData = [
         id: 20,
         name: "Цистерна 68 т 15-1566",
         category: "freight",
+        author: "UkraineRailways",
         description: "Грузовая цистерна 68 т модели 15-1566. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/tank_15_1566.jpg",
         versions: [
@@ -387,6 +407,7 @@ const trainsData = [
         id: 21,
         name: "Хоппер 19-7053-02",
         category: "freight",
+        author: "UkraineRailways",
         description: "Грузовой хоппер 19-7053-02. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/hopper_19_7053.jpg",
         versions: [
@@ -406,6 +427,7 @@ const trainsData = [
         id: 22,
         name: "Платформа 13-401",
         category: "freight",
+        author: "UkraineRailways",
         description: "Грузовая платформа 13-401. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/platform_13_401.jpg",
         versions: [
@@ -425,6 +447,7 @@ const trainsData = [
         id: 23,
         name: "Пассажирский вагон ТВЗ 61-4465",
         category: "passenger",
+        author: "Nexi4x",
         description: "Пассажирский двухэтажный вагон ТВЗ 61-4465.",
         image: "images/wagons/tvz_61_4465.jpg",
         versions: [
@@ -444,6 +467,7 @@ const trainsData = [
         id: 24,
         name: "Вагон-ресторан «Невский экспресс»",
         category: "passenger",
+        author: "RTS",
         description: "Вагон-ресторан состава «Невский экспресс». Модель RTS.",
         image: "images/wagons/nevsky_restaurant.jpg",
         versions: [
@@ -463,6 +487,7 @@ const trainsData = [
         id: 25,
         name: "Вагон 2 класса «Невский экспресс»",
         category: "passenger",
+        author: "RTS",
         description: "Пассажирский вагон 2 класса состава «Невский экспресс». Модель RTS.",
         image: "images/wagons/nevsky_2class.jpg",
         versions: [
@@ -482,6 +507,7 @@ const trainsData = [
         id: 26,
         name: "Вагон РЦЦ",
         category: "passenger",
+        author: "RTS",
         description: "Пассажирский вагон РЦЦ. Модель RTS.",
         image: "images/wagons/rcc_wagon.jpg",
         versions: [
@@ -501,6 +527,7 @@ const trainsData = [
         id: 27,
         name: "Пассажирские вагоны «Хрущёвка»",
         category: "passenger",
+        author: "RTS",
         description: "Пак пассажирских вагонов «Хрущёвка». Модель RTS.",
         image: "images/wagons/khrushchevka.jpg",
         versions: [
@@ -520,6 +547,7 @@ const trainsData = [
         id: 28,
         name: "Пассажирские вагоны «Аммендорф» (старые)",
         category: "passenger",
+        author: "RTS",
         description: "Старые пассажирские вагоны «Аммендорф» в классическом исполнении. Поддерживаются все указанные версии Minecraft.",
         image: "images/wagons/ammendorf_old.jpg",
         versions: [
@@ -641,6 +669,7 @@ function createTrainCard(train, index) {
         <div class="train-info">
             <span class="train-category category-${train.category}">${categoryNames[train.category]}</span>
             <h3 class="train-name">${train.name}</h3>
+            ${train.author ? `<p class="train-description"><strong>Автор:</strong> ${train.author}</p>` : ''}
             <p class="train-description">${train.description}</p>
             <div class="train-versions">
                 ${train.versions.map(v => `<span class="version-tag">${v.mcVersion}</span>`).join('')}
@@ -682,7 +711,8 @@ function openVersionModal(trainId) {
     
     if (!train) return;
     
-    document.getElementById('modalTrainName').textContent = train.name;
+    document.getElementById('modalTrainName').textContent = 
+        train.author ? `${train.name} — Автор: ${train.author}` : train.name;
     
     const versionsList = document.getElementById('versionsList');
     versionsList.innerHTML = '';
@@ -693,7 +723,7 @@ function openVersionModal(trainId) {
         item.innerHTML = `
             <div class="version-info">
                 <span class="version-number">MC ${version.mcVersion}</span>
-                <span class="version-size">${version.size}</span>
+                <span class="version-size">${version.size || ''}</span>
             </div>
             <a href="${version.url}" target="_blank" class="btn-download-small">
                 Скачать
@@ -720,7 +750,7 @@ function showInfo(trainId) {
     const train = trainsData.find(t => t.id === trainId);
     if (!train) return;
     
-    alert(`${train.name}\n\n${train.description}\n\nДоступные версии: ${train.versions.map(v => v.mcVersion).join(', ')}`);
+    alert(`${train.name}${train.author ? `\nАвтор: ${train.author}` : ''}\n\n${train.description}\n\nДоступные версии: ${train.versions.map(v => v.mcVersion).join(', ')}`);
 }
 
 // ============================================
