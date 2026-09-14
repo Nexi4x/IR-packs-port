@@ -505,30 +505,10 @@ const trainsData = [
     },
     {
         id: 26,
-        name: "Пассажирские вагоны «Хрущёвка»",
-        category: "passenger",
-        author: "RTS",
-        description: "Пак пассажирских вагонов «Хрущёвка». Модель RTS.",
-        image: "images/wagons/khrushchevka.jpg",
-        versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
-        ]
-    },
-    {
-        id: 27,
         name: "Пассажирские вагоны «Аммендорф» (старые)",
         category: "passenger",
         author: "RTS",
-        description: "Старые пассажирские вагоны «Аммендорф» в классическом исполнении. Поддерживаются все указанные версии Minecraft.",
+        description: "Старые пассажирские вагоны «Аммендорф». Поддерживаются все указанные версии Minecraft.",
         image: "images/wagons/ammendorf_old.jpg",
         versions: [
             { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
