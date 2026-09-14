@@ -311,16 +311,16 @@ const trainsData = [
         description: "Автомотриса РА2 для пригородных и малодеятельных участков.",
         image: "images/trains/ra2_090.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/1d6cS66sm75w9bm6QFyllaFujl3d8Tl4x/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/1nxiCMBiQUH_5Pd6n6Q65SKFucB2Ow9GH/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/11G7_dwm8kSZDtTDQcv0JVbKlO1FrvbT_/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/10u63vLH9UP7EripQ2OvFQrRfgGuZ1m_N/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/1rBfyDlVyRi4mowc3LKlqo9GdN9sF-9gl/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/1upTGPJM3mlXvtRLLWVC0aydp8Ow5Ky4u/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/13D6oEHTEvQDyw0yasdl3uM2lVlT8qFjz/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/1mX-OCQqmLy_dlX0uCMuXUP_-CLNSQFrZ/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/1WWGfBLWxkyNJqJDoewJcnhWEvSFoFEPW/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "9 MB  Google Drive", url: "https://drive.google.com/file/d/1qoVUK09w9f7pcFRkk9-tnvxfrqKFBKlG/view?usp=drive_link" }
         ]
     },
     {
@@ -331,16 +331,16 @@ const trainsData = [
         description: "Межрегиональный пассажирский вагон МВП-ИР. Модель by FrozeRain.",
         image: "images/wagons/mvp_ir.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/1yn3XRjJpuyBcOGZAu873kz5oUl6C_zOu/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/195Sy5jeq0TQ4M_p2yGQoQhZ_iGlnMCPv/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/1ig0I2eiL9s6TcAi90kV0cuuVUQ3QTTOm/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/1fdmkllElZ3t_tgqXsUf4zUqNo2_rSLth/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/1fjiil4AA_cTgjsKsErsAxJr3bQcW1QYm/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/1wPPtUYUgFzOhh3-8Z176ou6hIPVr6Bmd/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/1JoMki_BZ7u25Pbk_sAV3rgqvzWgpp3_7/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/1ptjBJc9J-aJxIRbRLL7cFwOUS2_nxFlY/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/1JpCe1jEqeaLa-UmJYHK1o_Q4k5k6msRA/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "75 MB  Google Drive", url: "https://drive.google.com/file/d/1IuX6yVhSZYys4HpvHv3L-eCfEplsAxM3/view?usp=drive_link" }
         ]
     },
     {
@@ -351,16 +351,16 @@ const trainsData = [
         description: "Грузовой полувагон 12-119. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/half_wagon_12_119.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/1eDFvpCeeH8NEujyOqT2n20Mwo2oBszzq/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/16D0QRP1v94WjKnpzOhhuQHRaJ-j1V5TI/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/1z9fKxPn34rAbw7ay6Y4qKDuDdKHQpt9Z/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/1z2fG78RcOsiqVxubA-eoTSz4NSjYt6zt/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/1zsZ4W3O85sQeSjJGtoUAXulnRhBVmCa3/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/1T6kNI1lkiCvpQ02pHOMKG2FHHagcCZ5_/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/1wWx7Mi569tL6ZKLGCcACM5pn6R7_DsLd/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/1V_XwjmL9ygnzKAuF1fJpxUJAAvETTv4j/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/1cqsA1i-SnAszWziNSxgR1DzYlc9vRc53/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "32 MB  Google Drive", url: "https://drive.google.com/file/d/1MxiMcxkJdpwm1i84glPmAFI6tUIdEou1/view?usp=drive_link" }
         ]
     },
     {
@@ -371,16 +371,16 @@ const trainsData = [
         description: "Крытый грузовой вагон 11-270. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/boxcar_11_270.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1JIY6WbQfYr-bnrRnpO03aEWQ-Sir0jVZ/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/13jbKy5LHWzv0J6adpbcptrwhS2uLiDAK/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1Vp_Y1xoipFojkA3BjVk4REDShfRNszn5/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1LXdzPIJvYPML99b532ZKHnBaAeWptL4I/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "17 MB  Google Drive",, url: "https://drive.google.com/file/d/1lAcghd3s2SAJ7YDsODNtlXop7jW-3Gh0/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1LS-bqTGeEnxHhfcia66RLc4R2w5KPUdK/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1EnggvVZkjNNfnFkPEi6T0yrHO2agkGDk/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1LsosCHT153hLCYBthkO0OWFsY3hnaeYZ/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1s5-q6jvAq6cI8-SYWB5CyE6x19CcI3Wj/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1jlf0FbxlbeMIYrKLASF3Q4AFExI4gNjC/view?usp=drive_link" }
         ]
     },
     {
@@ -391,16 +391,16 @@ const trainsData = [
         description: "Грузовая цистерна 68 т модели 15-1566. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/tank_15_1566.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1H3yZ8b5Awd-DZ91UoopT6arnFH8DgqpR/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1yh_jycPceu3ir92_5ejhGTT2nlQur6Hd/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1Ju6TxWcLwhsCoRe2F6GiNTbFX1veDk1c/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1sdCY5GlUB8C4HppyukzMepfutBhkz7kw/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1ANFxS8HdpYb9cPvZ-N8yD0K8u1loSqvf/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1PZcqrgzDbE8OeJ8DOWev6kO04mBUAP5Z/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1RdzBj-z8bB1QqKAWRtsY6oWtUp2eQlkk/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1vqyW4xN9m_zaTrkjxm5O80y0QRlS1GX6/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1RC_tb1sCkAVMjAgp2lGbhpOwB8XiG0Bj/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "17 MB  Google Drive", url: "https://drive.google.com/file/d/1Idd8QVNFeGIyshOpFsNZHzjPCQ7QZnJo/view?usp=drive_link" }
         ]
     },
     {
@@ -411,16 +411,16 @@ const trainsData = [
         description: "Грузовой хоппер 19-7053-02. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/hopper_19_7053.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/1l0zIZUC4Jtj6ss21YQ6u-Mhn-6iHvLJv/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/1NQ2rZ-ZxkYzyVDun0vLEew6KFxxHs1bY/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/1HQXFga5r8N_Jl3KlkygKQnYzb89nso78/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/1M6QF54PRbG9B0n6Z6XEv43wUNR7xZ5Nf/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/12R3s1QRy48Xw5hWDMje-oUBDuVnWB_Sc/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/11oLCchI7FRyVFfuRA1F8UJlaCjqUcqMp/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/11HzTQks_IDw18w9C5JQq8bd8dQEtldi9/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/1E3nF03nvLuUt973nPxatgakeoNHhPMMC/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/17BWWQcFWzGQZrMmPeeyrdtpwi_BZQ1TY/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "11 MB  Google Drive", url: "https://drive.google.com/file/d/1Emu3mAugkXIOsEmg1tqn7uWO08lk07SK/view?usp=drive_link" }
         ]
     },
     {
@@ -431,16 +431,16 @@ const trainsData = [
         description: "Грузовая платформа 13-401. Модель «Vg» в окраске UkraineRailways.",
         image: "images/wagons/platform_13_401.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/1d67S5qmiUkOjhCmBoQ_jIEntOmaVAJYG/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/18Boj6h3S5TOu19we5kFH6sc3-40vEDZC/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/181YSxU62KgNPWKUlGi5QG_ctOshebyJ6/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/15UFEsc2XC30ks1hS_Nd4Frf2nBzc-mqI/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/1ZxYHJLYBNNUN7SGlnUhqbVJ8gy4GrSsl/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/171yY6E2alwVFqPQ1CjK4QPu41TenndM1/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/19aauBc5Ch7SrJlWa34KM0Yk74VwPuvfT/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/1nx2DcJYPRttaTYMEFyv3qhkE9OAEbDq2/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/1RoaTU9z1zcQBdXonLFu6n5VfSft49Oto/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "8 MB  Google Drive", url: "https://drive.google.com/file/d/19qNxqE3LJg16CJRTKcc36XOprEMlFm0B/view?usp=drive_link" }
         ]
     }, 
     {
@@ -451,16 +451,16 @@ const trainsData = [
         description: "Вагон-ресторан состава «Невский экспресс». Модель RTS.",
         image: "images/wagons/nevsky_restaurant.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1CTzIKWnxCm5d3LaI2EhzifsFZQOLu_bk/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1wzotEfvDhhIWqNCGIrgrnHSDh0v6ZLJs/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1YK_eu545KWO-zD6QlAKkGOVVe7WViw0v/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1CMJYEpSpklgBfHm43AcZZ6ZKDifNOy0N/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1yj-Nyct3SygLFu5MFuxgrzyWdawZBGbl/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1vfpSN5ARl-s6axUHpOOnCADty3hMLwmB/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1YbErOHR6SYx7_nYp5K3HGLGKIEHvYz--/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1Z-TGq1tRcrAUnHgk1ZmBb7WuMhDmC4ZU/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1-Fq2AoqWp1Iyiqc8WUw6c-JYIa3HUyOo/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "14 MB  Google Drive", url: "https://drive.google.com/file/d/1uC0SDQSlwNRQRIIzXslqHk7Ou-dg80m5/view?usp=drive_link" }
         ]
     },
     {
@@ -471,36 +471,36 @@ const trainsData = [
         description: "Пассажирский вагон 2 класса состава «Невский экспресс». Модель RTS.",
         image: "images/wagons/nevsky_2class.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1ac3LkhxRC7bESsHsgY-WledF9u1h_Y0D/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1xYlxOpqbQc30KNJ4BNbaUuHD4n99e7Wy/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1Wycko6dtXkGLvSGMTr9VBU4cLkd2XkoL/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1MkWVjBQo5enKhBlhW2IDJVn0cyqwn1R4/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1hre3gRhSJmRaorUkzn3IAf0dlzBL3Kf6/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1ZFYi4PQwx8Y_RoZslNAcd70dy2TxB0wN/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1Jgjmf4h02sYKMkxfo0K9J2Fu-lfFTae7/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1jJQFB7GLS7wdBLQaNW4u_qgdMhdAjjji/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1IFDxKVDFkQatt4fmfSI12DoztvXA-Sda/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "7 MB  Google Drive", url: "https://drive.google.com/file/d/1zSWDZW3RtpvCc8TEMF6Ynel-Tw6npguL/view?usp=drive_link" }
         ]
     },
     {
         id: 25,
-        name: "Вагон РЦЦ",
+        name: "Вагон РИЦ",
         category: "passenger",
         author: "RTS",
-        description: "Пассажирский вагон РЦЦ. Модель RTS.",
+        description: "Пассажирский вагон РИЦ. Модель RTS.",
         image: "images/wagons/rcc_wagon.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1wpkCZt2SwcgCv8TncB3HOAsJY1pG5I3G/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1PEZt_QwK554E4RvLeUgMuL7tDMlXg2Ku/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/104y_qF5Ap511WdO9nE9WTk60toKJBy-p/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/13mmNhU87Z8oOLYhQw5LtyDH9VX4_KV9F/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1O2Ow-jFc3SnmvTlIm8bm7iFuRlYpriSt/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1O11nPQDXx000Lfi640OMhK7J1ajdSlrP/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1X7s4aT-YeUcvRe1_fatjeoyj9fxjya3Z/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1EDB6fJwBxHxNcTOpXLE_6MM-9oywt0Ap/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/142DsFwSUvDBhsr9h1t49gLVfzV0R5bCJ/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1H4SezNIE8GLIfW-6aKr4xP2Lnagv69iK/view?usp=drive_link" }
         ]
     },
     {
@@ -511,16 +511,16 @@ const trainsData = [
         description: "Старые пассажирские вагоны «Аммендорф». Поддерживаются все указанные версии Minecraft.",
         image: "images/wagons/ammendorf_old.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/1VxFqUSiTvnyiX5qHVzYy9DQJ6rJz7ylP/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/1JLoNr1zF0uG2_PqnPjA02UX_vngESnpU/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/13AtaflRgA1_y93Z7WH4EMipqP8fbUWaG/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/1o_twADwpkFJcpEesnMzQ4Hl5gfZJ0cz-/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/1Wz0y6vhFHKXUy1j2mImYbyAvJi5SKvNe/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/1m2lB47IR_NbYU34ZiaIJKFza6wYyjqiG/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/1WoHHOlvKidDyCb0sG_op1c5Jq9qFxhvN/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/1lQTx1OvAeyWJa0hbMfKRpbQRxVxbJwlq/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/1dP0kqof5Wu2Hhm9FlgXvTrTxU9uhnEew/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "3 MB  Google Drive", url: "https://drive.google.com/file/d/1OSBAgaam8LWwgR7mCNLXFXgK-q6AQCFU/view?usp=drive_link" }
         ]
     },
 ];
