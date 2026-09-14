@@ -291,16 +291,16 @@ const trainsData = [
         description: "Грузовой тепловоз 2ТЭ25КМ. Модель Dark_Angel.",
         image: "images/trains/2te25km.jpg",
         versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
+            { mcVersion: "1.12.2", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1OUX7CnlsbxDciyr84ID1FL_DZsDhUfMh/view?usp=drive_link" },
+            { mcVersion: "1.14.4", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1XfMnMyL3gL15jIyV_4hsjZdNq58XwkeL/view?usp=drive_link" },
+            { mcVersion: "1.15.2", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/13tEQwrwR3S1lHdhOCNCB9AIM2AWy0wO3/view?usp=drive_link" },
+            { mcVersion: "1.16.5", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1OelTNnIU9i9gsm0YGjSJue4-H0D59ZAb/view?usp=drive_link" },
+            { mcVersion: "1.17.1", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1fPx2t9uLlmElvKureqshL44Ol0CelUw0/view?usp=drive_link" },
+            { mcVersion: "1.18.2", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/13V73d63OUup_VRzPg21I70SHBmkIlM9e/view?usp=drive_link" },
+            { mcVersion: "1.19.4", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1h7684YjFqk097ryhDVCPj3Eifke5K0cR/view?usp=drive_link" },
+            { mcVersion: "1.20.1", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1M47GeOdjHL-N3UWTFhJZ71WjA6zT9psl/view?usp=drive_link" },
+            { mcVersion: "1.21.1", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/18Jrrs5DCkxgKsb917lTtbHIuVkC_KqTB/view?usp=drive_link" },
+            { mcVersion: "1.21.4", size: "20 MB  Google Drive", url: "https://drive.google.com/file/d/1x6KfnoqgWc1554_83awUd39tdEF1JXiQ/view?usp=drive_link" }
         ]
     },
     {
