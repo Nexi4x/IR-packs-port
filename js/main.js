@@ -442,29 +442,9 @@ const trainsData = [
             { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
             { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
         ]
-    },
+    }, 
     {
         id: 23,
-        name: "Пассажирский вагон ТВЗ 61-4465",
-        category: "passenger",
-        author: "RTS",
-        description: "Пассажирский двухэтажный вагон ТВЗ 61-4465.",
-        image: "images/wagons/tvz_61_4465.jpg",
-        versions: [
-            { mcVersion: "1.12.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.14.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.15.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.16.5", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.17.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.18.2", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.19.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.20.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.1", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" },
-            { mcVersion: "1.21.4", url: "https://drive.google.com/file/d/ТВОЙ_ID/view?usp=sharing" }
-        ]
-    },
-    {
-        id: 24,
         name: "Вагон-ресторан «Невский экспресс»",
         category: "passenger",
         author: "RTS",
@@ -484,7 +464,7 @@ const trainsData = [
         ]
     },
     {
-        id: 25,
+        id: 24,
         name: "Вагон 2 класса «Невский экспресс»",
         category: "passenger",
         author: "RTS",
@@ -504,7 +484,7 @@ const trainsData = [
         ]
     },
     {
-        id: 26,
+        id: 25,
         name: "Вагон РЦЦ",
         category: "passenger",
         author: "RTS",
@@ -524,7 +504,7 @@ const trainsData = [
         ]
     },
     {
-        id: 27,
+        id: 26,
         name: "Пассажирские вагоны «Хрущёвка»",
         category: "passenger",
         author: "RTS",
@@ -544,7 +524,7 @@ const trainsData = [
         ]
     },
     {
-        id: 28,
+        id: 27,
         name: "Пассажирские вагоны «Аммендорф» (старые)",
         category: "passenger",
         author: "RTS",
