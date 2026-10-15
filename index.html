@@ -1,141 +1,265 @@
+```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IR packs - Модели поездов для IR</title>
-    <meta name="description" content="Модели поездов для Immersive Railroading в Minecraft">
+
+    <title>IR Packs — модели поездов для Immersive Railroading</title>
+    <meta name="description" content="Каталог моделей поездов для Minecraft и Immersive Railroading. Локомотивы, электропоезда и составы для разных версий игры.">
+    <meta name="theme-color" content="#0b0d12">
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/upgrade.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- Анимированный фон -->
-    <div class="bg-animation">
+    <!-- Фоновое оформление -->
+    <div class="bg-animation" aria-hidden="true">
         <div class="gradient-sphere sphere-1"></div>
         <div class="gradient-sphere sphere-2"></div>
         <div class="gradient-sphere sphere-3"></div>
         <div class="noise-overlay"></div>
     </div>
 
-    <!-- Шапка -->
+    <!-- Шапка сайта -->
     <header class="header">
-        <nav class="nav">
-            <div class="logo">
+        <nav class="nav" aria-label="Главная навигация">
+            <a href="#home" class="logo" aria-label="Nexi4x — главная">
                 <span class="logo-icon">🚂</span>
                 <span class="logo-text">Nexi4x</span>
-            </div>
+            </a>
+
             <ul class="nav-links">
                 <li><a href="#home" class="nav-link active">Главная</a></li>
                 <li><a href="#trains" class="nav-link">Поезда</a></li>
                 <li><a href="#about" class="nav-link">О проекте</a></li>
                 <li><a href="#contacts" class="nav-link">Контакты</a></li>
             </ul>
-            <div class="burger">
+
+            <button class="burger" type="button"
+                    aria-label="Открыть меню"
+                    aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
         </nav>
     </header>
 
-    <!-- Главная секция -->
-    <section id="home" class="hero hero-v3">
-    <div class="hero-layout-v3">
+    <main>
+        <!-- Главный экран -->
+        <section id="home" class="hero hero-v3">
+            <div class="hero-layout">
+                <div class="hero-copy">
+                    <div class="hero-eyebrow">
+                        <span class="hero-status-dot"></span>
+                        <span>NEXI4X</span>
+                        <span class="hero-eyebrow-divider">/</span>
+                        <span>RAILWAY PROJECT</span>
+                    </div>
 
-        <div class="hero-content hero-content-v3">
-            <span class="hero-label">
-                <span class="hero-label-dot"></span>
-                NEXI4X / IMMERSIVE RAILROADING
-            </span>
+                    <h1 class="hero-title">
+                        Твоя железная
+                        <span class="hero-title-accent">дорога.</span>
+                        <span class="hero-title-outline">Твои правила.</span>
+                    </h1>
 
-            <h1 class="hero-title hero-title-v3">
-                Модели поездов
-                <span>для твоего мира Minecraft</span>
-            </h1>
+                    <p class="hero-subtitle">
+                        Модели поездов для
+                        <strong>Immersive Railroading.</strong>
+                        Выбирай составы, подбирай версии и создавай
+                        собственную железную дорогу в Minecraft.
+                    </p>
 
-            <p class="hero-subtitle hero-subtitle-v3">
-                Любимые локомотивы. Разные версии Minecraft.
-                Одна железная дорога.
-            </p>
+                    <div class="hero-buttons">
+                        <a href="#trains" class="btn btn-primary hero-main-btn">
+                            Открыть каталог <span aria-hidden="true">↗</span>
+                        </a>
 
-            <div class="hero-buttons hero-buttons-v3">
-                <a href="#trains" class="btn btn-primary">
-                    Смотреть модели <span>↗</span>
-                </a>
+                        <a href="https://youtube.com/@nexi4x_official"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn btn-secondary hero-secondary-btn">
+                            <span aria-hidden="true">▶</span> YouTube
+                        </a>
+                    </div>
 
-                <a
-                    href="https://youtube.com/@nexi4x_official"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn btn-secondary"
-                >
-                    YouTube
-                </a>
-            </div>
-        </div>
-
-        <div class="hero-art-v3">
-            <div class="hero-art-glow-v3"></div>
-
-            <img
-                src="images/trains/ed4m_rzd.jpg"
-                alt="Электропоезд ЭД4М"
-            >
-
-            <div class="hero-art-caption-v3">
-                <span>01</span>
-                <span>ЭД4М · РЖД</span>
-            </div>
-        </div>
-
-    </div>
-
-    <a href="#trains" class="hero-scroll-v3">
-        <span>К моделям</span>
-        <span>↓</span>
-    </a>
-</section>
-
-    <!-- Модальное окно выбора версии -->
-    <div class="modal" id="versionModal">
-        <div class="modal-backdrop"></div>
-        <div class="modal-content">
-            <button class="modal-close">&times;</button>
-            <h3 class="modal-title">Выбор версии</h3>
-            <p class="modal-subtitle" id="modalTrainName"></p>
-            <div class="versions-list" id="versionsList">
-                <!-- Версии загружаются через JS -->
-            </div>
-        </div>
-    </div>
-
-    <!-- Секция о проекте -->
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="about-content glass-card">
-                <h2 class="section-title">О проекте</h2>
-                <div class="about-text">
-                    <p>Я научился портировать модели поездов на любую версию для мода Immersive Railroading.</p>
-                    <p>На этом сайте ты найдёшь коллекцию качественных моделей, готовых к использованию в твоём мире.</p>
-                    <div class="stats">
-                        <div class="stat-item">
-                            <span class="stat-number" data-count="25">0</span>
-                            <span class="stat-label">Моделей</span>
+                    <div class="hero-features">
+                        <div class="hero-feature">
+                            <span class="hero-feature-icon" aria-hidden="true">▦</span>
+                            <div>
+                                <strong>Каталог моделей</strong>
+                                <span>Локомотивы и составы</span>
+                            </div>
                         </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-count="8">0</span>
-                            <span class="stat-label">Версий MC</span>
+
+                        <div class="hero-feature-separator"></div>
+
+                        <div class="hero-feature">
+                            <span class="hero-feature-icon" aria-hidden="true">↗</span>
+                            <div>
+                                <strong>Разные версии</strong>
+                                <span>Подбор сборки Minecraft</span>
+                            </div>
                         </div>
-                        <div class="stat-item">
-                            <span class="stat-number" data-count="1">0</span>
-                            <span class="stat-label">Скачиваний</span>
+                    </div>
+                </div>
+
+                <!-- Компактная иллюстрация без огромной картинки -->
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="hero-visual-glow"></div>
+
+                    <div class="hero-visual-card">
+                        <div class="hero-visual-top">
+                            <div class="hero-visual-brand">
+                                <span class="hero-visual-icon">🚂</span>
+                                <div>
+                                    <strong>RAILWAY SYSTEM</strong>
+                                    <span>IMMERSIVE RAILROADING</span>
+                                </div>
+                            </div>
+
+                            <div class="hero-visual-status">
+                                <span></span> ONLINE
+                            </div>
+                        </div>
+
+                        <div class="hero-blueprint">
+                            <span class="hero-blueprint-label">RAILWAY / 001</span>
+
+                            <div class="hero-train-art">
+                                <div class="train-signal"></div>
+
+                                <div class="train-art-body">
+                                    <div class="train-art-roof"></div>
+                                    <div class="train-art-windows">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                    <div class="train-art-stripe"></div>
+                                    <div class="train-art-front">
+                                        <div class="train-art-windshield"></div>
+                                        <div class="train-art-lights">
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                    <div class="train-art-wheels">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+
+                                <div class="train-art-rails"></div>
+                            </div>
+
+                            <div class="hero-visual-bottom">
+                                <span>BUILT FOR MINECRAFT</span>
+                                <span>№ 001</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <a href="#trains" class="hero-scroll" aria-label="Перейти к каталогу">
+                <span></span>
+                <span>Листай вниз</span>
+            </a>
+        </section>
+
+        <!-- Каталог поездов -->
+        <section id="trains" class="trains-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="title-bg">Коллекция</span>
+                    Доступные модели
+                </h2>
+
+                <div class="filters" aria-label="Фильтр моделей">
+                    <button type="button" class="filter-btn active" data-filter="all">Все</button>
+                    <button type="button" class="filter-btn" data-filter="steam">Паровозы</button>
+                    <button type="button" class="filter-btn" data-filter="diesel">Тепловозы</button>
+                    <button type="button" class="filter-btn" data-filter="electric">Электровозы</button>
+                    <button type="button" class="filter-btn" data-filter="passenger">Пассажирские</button>
+                    <button type="button" class="filter-btn" data-filter="freight">Грузовые</button>
+                </div>
+
+                <div class="trains-grid" id="trainsGrid">
+                    <!-- Карточки моделей загружаются через js/main.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Выбор версии -->
+        <div class="modal" id="versionModal" aria-hidden="true">
+            <div class="modal-backdrop"></div>
+
+            <div class="modal-content"
+                 role="dialog"
+                 aria-modal="true"
+                 aria-labelledby="versionModalTitle">
+                <button type="button" class="modal-close" aria-label="Закрыть окно">
+                    &times;
+                </button>
+
+                <h3 class="modal-title" id="versionModalTitle">Выбор версии</h3>
+                <p class="modal-subtitle" id="modalTrainName"></p>
+
+                <div class="versions-list" id="versionsList">
+                    <!-- Список версий загружается через JS -->
+                </div>
+            </div>
         </div>
-    </section>
+
+        <!-- О проекте -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-content glass-card">
+                    <h2 class="section-title">О проекте</h2>
+
+                    <div class="about-text">
+                        <p>
+                            Я занимаюсь портированием моделей поездов
+                            для разных версий Minecraft с модом
+                            Immersive Railroading.
+                        </p>
+
+                        <p>
+                            Здесь собраны модели, которые можно выбрать
+                            для своей сборки и использовать в игровом мире.
+                        </p>
+
+                        <div class="stats">
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="25">0</span>
+                                <span class="stat-label">Моделей</span>
+                            </div>
+
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="8">0</span>
+                                <span class="stat-label">Версий MC</span>
+                            </div>
+
+                            <div class="stat-item">
+                                <span class="stat-number" data-count="1">0</span>
+                                <span class="stat-label">Проект</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Подвал -->
     <footer id="contacts" class="footer">
@@ -143,16 +267,30 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h4>Контакты</h4>
-                    <a href="https://youtube.com/@nexi4x_official?si=Zwbo0HU-ldrdDjUj" target="_blank" class="footer-link">YouTube</a>
-                    <a href="https://t.me/Nexi4x" target="_blank" class="footer-link">Telegram</a>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=Misacebykin72@Gmail.com" class="footer-link">Email</a>
+
+                    <a href="https://youtube.com/@nexi4x_official"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="footer-link">YouTube</a>
+
+                    <a href="https://t.me/Nexi4x"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="footer-link">Telegram</a>
+
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=Misacebykin72%40Gmail.com"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="footer-link">Email</a>
                 </div>
+
                 <div class="footer-section">
                     <h4>Полезное</h4>
-                    <a href="#" class="footer-link">Как установить</a>
-                    <a href="#" class="footer-link">FAQ</a>
+                    <a href="#about" class="footer-link">О проекте</a>
+                    <a href="#trains" class="footer-link">Каталог моделей</a>
                 </div>
             </div>
+
             <div class="footer-bottom">
                 <p>&copy; Nexi4x. Все права защищены.</p>
             </div>
@@ -163,4 +301,4 @@
     <script src="./js/upgrade.js"></script>
 </body>
 </html>
-
+```
