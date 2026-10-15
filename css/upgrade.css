@@ -577,3 +577,919 @@ select:focus-visible {
         transition-duration: .01ms !important;
     }
 }
+
+/* ==================================================
+   HERO V2 — NEXI4X RAILWAY EXPERIENCE
+   ================================================== */
+
+.hero.hero-v2 {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100svh;
+    padding: 135px 48px 110px;
+    overflow: hidden;
+    text-align: left;
+    background:
+        radial-gradient(
+            ellipse at 12% 35%,
+            rgba(112, 65, 120, .14),
+            transparent 35%
+        ),
+        radial-gradient(
+            ellipse at 88% 57%,
+            rgba(68, 127, 151, .10),
+            transparent 40%
+        );
+}
+
+.hero-v2::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: .17;
+    background-image:
+        linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+    background-size: 58px 58px;
+    mask-image: linear-gradient(
+        to bottom,
+        transparent,
+        #000 18%,
+        #000 75%,
+        transparent
+    );
+}
+
+.hero-layout {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: minmax(0, .98fr) minmax(0, 1.02fr);
+    align-items: center;
+    gap: clamp(35px, 5vw, 85px);
+    width: min(1420px, 100%);
+    margin: 0 auto;
+}
+
+/* Левый блок */
+
+.hero-copy {
+    position: relative;
+    z-index: 3;
+    min-width: 0;
+    animation: heroCopyEnter .9s cubic-bezier(.2,.7,.2,1) both;
+}
+
+@keyframes heroCopyEnter {
+    from {
+        opacity: 0;
+        transform: translateY(26px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 11px;
+    margin-bottom: 28px;
+    color: #a6abc3;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: .16em;
+}
+
+.hero-status-dot {
+    width: 7px;
+    height: 7px;
+    flex: 0 0 7px;
+    background: #4eddd1;
+    border-radius: 50%;
+    box-shadow: 0 0 13px rgba(78,221,209,.8);
+    animation: heroDotPulse 2.5s infinite;
+}
+
+@keyframes heroDotPulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(78,221,209,.1);
+    }
+    50% {
+        box-shadow: 0 0 0 6px rgba(78,221,209,.08);
+    }
+}
+
+.hero-eyebrow-divider {
+    color: #6059a3;
+}
+
+.hero-title.hero-title-v2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    max-width: 740px;
+    margin: 0 0 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(43px, 4.55vw, 70px);
+    font-weight: 800;
+    line-height: 1.08;
+    letter-spacing: -.065em;
+    text-align: left;
+    text-wrap: balance;
+}
+
+.hero-title-v2 > * {
+    display: block;
+}
+
+.hero-title-v2 .hero-title-accent {
+    color: transparent;
+    background: linear-gradient(
+        105deg,
+        #aaa0ff 0%,
+        #8977ff 42%,
+        #6bcae1 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    filter: drop-shadow(0 6px 24px rgba(137,120,255,.12));
+}
+
+.hero-title-v2 .hero-title-outline {
+    margin-top: 8px;
+    color: rgba(255,255,255,.38);
+    font-size: .54em;
+    font-weight: 600;
+    letter-spacing: -.035em;
+}
+
+.hero-subtitle.hero-subtitle-v2 {
+    max-width: 540px;
+    margin: 0 0 32px;
+    color: #a7a8bb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(14px, 1.2vw, 17px);
+    font-weight: 400;
+    line-height: 1.9;
+    text-align: left;
+}
+
+.hero-subtitle-v2 strong {
+    color: #e3e2fa;
+    font-weight: 600;
+}
+
+/* Кнопки */
+
+.hero-buttons.hero-buttons-v2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 13px;
+    width: 100%;
+}
+
+.hero-buttons-v2 .btn {
+    min-height: 55px;
+    gap: 22px;
+    padding: 16px 22px;
+    border-radius: 14px;
+    font-size: 13px;
+}
+
+.hero-buttons-v2 .hero-main-btn {
+    min-width: 205px;
+    justify-content: space-between;
+    background: linear-gradient(115deg, #7869f2 0%, #7150b9 100%);
+    box-shadow:
+        0 10px 35px rgba(112,88,220,.22),
+        inset 0 1px 0 rgba(255,255,255,.2);
+}
+
+.hero-buttons-v2 .hero-main-btn:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 16px 42px rgba(112,88,220,.35),
+        inset 0 1px 0 rgba(255,255,255,.22);
+}
+
+.hero-btn-arrow {
+    font-size: 20px;
+    line-height: 1;
+    transition: transform .25s ease;
+}
+
+.hero-main-btn:hover .hero-btn-arrow {
+    transform: translate(3px, -3px);
+}
+
+.hero-buttons-v2 .hero-secondary-btn {
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255,255,255,.035);
+    border: 1px solid rgba(255,255,255,.11);
+}
+
+.hero-buttons-v2 .hero-secondary-btn:hover {
+    background: rgba(255,255,255,.075);
+    border-color: rgba(255,255,255,.23);
+}
+
+.hero-youtube-icon {
+    display: grid;
+    place-items: center;
+    width: 22px;
+    height: 22px;
+    color: #ff7589;
+    font-size: 12px;
+}
+
+/* Краткие особенности */
+
+.hero-features {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255,255,255,.09);
+}
+
+.hero-feature {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.hero-feature-icon {
+    display: grid;
+    place-items: center;
+    width: 39px;
+    height: 39px;
+    flex: 0 0 39px;
+    color: #a69aff;
+    background: rgba(137,120,255,.1);
+    border: 1px solid rgba(137,120,255,.17);
+    border-radius: 12px;
+    font-size: 19px;
+}
+
+.hero-feature > div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.hero-feature strong {
+    color: #e0e2f1;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.hero-feature > div > span {
+    color: #777d96;
+    font-size: 10px;
+}
+
+.hero-feature-separator {
+    width: 1px;
+    height: 28px;
+    background: rgba(255,255,255,.1);
+}
+
+/* Правая часть — визуал */
+
+.hero-visual {
+    position: relative;
+    isolation: isolate;
+    min-width: 0;
+    perspective: 1200px;
+    animation: heroVisualEnter 1s .12s cubic-bezier(.2,.7,.2,1) both;
+}
+
+@keyframes heroVisualEnter {
+    from {
+        opacity: 0;
+        transform: translateX(30px) scale(.97);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+.hero-visual-glow {
+    position: absolute;
+    inset: 15% 5% 5%;
+    z-index: -1;
+    background: radial-gradient(
+        ellipse,
+        rgba(111,93,233,.23),
+        rgba(56,178,192,.08) 45%,
+        transparent 72%
+    );
+    filter: blur(45px);
+    pointer-events: none;
+}
+
+.hero-visual-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(174,166,255,.2);
+    border-radius: 25px;
+    background:
+        linear-gradient(
+            145deg,
+            rgba(30,32,51,.96),
+            rgba(12,14,24,.97)
+        );
+    box-shadow:
+        0 35px 100px rgba(0,0,0,.32),
+        inset 0 1px 0 rgba(255,255,255,.07);
+    transform: rotateY(-3deg) rotateX(1deg);
+    transition:
+        transform .5s cubic-bezier(.2,.7,.2,1),
+        border-color .35s ease,
+        box-shadow .35s ease;
+}
+
+.hero-visual-card:hover {
+    transform: rotateY(0) rotateX(0) translateY(-4px);
+    border-color: rgba(174,166,255,.34);
+    box-shadow:
+        0 40px 100px rgba(0,0,0,.38),
+        0 0 50px rgba(111,93,233,.08);
+}
+
+.hero-visual-top {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 23px 24px;
+    border-bottom: 1px solid rgba(255,255,255,.07);
+}
+
+.hero-visual-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero-visual-icon {
+    display: grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    border: 1px solid rgba(137,120,255,.25);
+    border-radius: 13px;
+    background: rgba(137,120,255,.11);
+    font-size: 22px;
+}
+
+.hero-visual-brand > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-visual-brand strong {
+    color: #edefff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    letter-spacing: .07em;
+}
+
+.hero-visual-brand > div > span {
+    color: #858ba5;
+    font-size: 9px;
+    letter-spacing: .1em;
+}
+
+.hero-visual-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 11px;
+    color: #83dace;
+    background: rgba(78,221,209,.065);
+    border: 1px solid rgba(78,221,209,.13);
+    border-radius: 8px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+    letter-spacing: .08em;
+}
+
+.hero-visual-status > span {
+    width: 6px;
+    height: 6px;
+    background: #4eddd1;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(78,221,209,.65);
+}
+
+/* Поле чертежа */
+
+.hero-blueprint {
+    position: relative;
+    overflow: hidden;
+    padding: 13px 8px 0;
+    background:
+        radial-gradient(
+            ellipse at 52% 55%,
+            rgba(99,84,204,.11),
+            transparent 65%
+        ),
+        linear-gradient(
+            180deg,
+            rgba(14,17,30,.2),
+            rgba(12,17,27,.5)
+        );
+}
+
+.hero-blueprint::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: .4;
+    background-image:
+        linear-gradient(rgba(160,158,238,.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(160,158,238,.05) 1px, transparent 1px);
+    background-size: 27px 27px;
+}
+
+.hero-blueprint-label {
+    position: absolute;
+    top: 20px;
+    left: 22px;
+    z-index: 1;
+    color: #858bab;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+    letter-spacing: .13em;
+}
+
+.hero-train-svg {
+    position: relative;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 255px;
+    max-height: 380px;
+    margin: 0 auto;
+    overflow: visible;
+    animation: trainFloat 6s ease-in-out infinite;
+}
+
+@keyframes trainFloat {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.hero-visual-crosshair {
+    position: absolute;
+    z-index: 1;
+    width: 12px;
+    height: 12px;
+    border: 1px solid rgba(156,142,255,.7);
+}
+
+.crosshair-one {
+    top: 55px;
+    right: 22px;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.crosshair-two {
+    bottom: 30px;
+    left: 22px;
+    border-right: 0;
+    border-top: 0;
+}
+
+/* Подвал визуальной карточки */
+
+.hero-visual-bottom {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px 24px;
+    border-top: 1px solid rgba(255,255,255,.07);
+    background: rgba(255,255,255,.018);
+}
+
+.hero-visual-bottom > div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.hero-visual-caption {
+    color: #858ba7;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+    letter-spacing: .14em;
+}
+
+.hero-visual-bottom strong {
+    color: #e4e5f2;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.hero-visual-badge {
+    display: grid;
+    place-items: center;
+    width: 39px;
+    height: 39px;
+    flex: 0 0 39px;
+    color: #c7bfff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid rgba(137,120,255,.26);
+    border-radius: 50%;
+    background: rgba(137,120,255,.09);
+}
+
+/* Плавающая подпись */
+
+.hero-float-card {
+    position: absolute;
+    z-index: 4;
+    right: -24px;
+    bottom: 95px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 17px;
+    border: 1px solid rgba(255,255,255,.11);
+    border-radius: 15px;
+    background: rgba(23,25,41,.94);
+    box-shadow: 0 15px 45px rgba(0,0,0,.28);
+    backdrop-filter: blur(15px);
+    animation: heroFloatCard 5s ease-in-out infinite;
+}
+
+@keyframes heroFloatCard {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-7px);
+    }
+}
+
+.hero-float-icon {
+    display: grid;
+    place-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 11px;
+    background: rgba(137,120,255,.15);
+    color: #bdadff;
+    font-size: 19px;
+}
+
+.hero-float-card > div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-float-card strong {
+    color: #f0f0fb;
+    font-size: 11px;
+}
+
+.hero-float-card > div > span {
+    color: #8e92aa;
+    font-size: 10px;
+}
+
+.hero-vertical-text {
+    position: absolute;
+    top: 50%;
+    right: -45px;
+    color: rgba(174,166,255,.47);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 8px;
+    letter-spacing: .2em;
+    writing-mode: vertical-rl;
+    transform: translateY(-50%);
+}
+
+/* Нижняя навигация */
+
+.hero-scroll-v2 {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
+    color: #81869f;
+    text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 9px;
+    letter-spacing: .14em;
+    transform: translateX(-50%);
+    transition: color .25s ease;
+}
+
+.hero-scroll-v2:hover {
+    color: #d1c9ff;
+}
+
+.hero-scroll-arrow {
+    display: grid;
+    place-items: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgba(255,255,255,.15);
+    border-radius: 50%;
+    font-family: sans-serif;
+    font-size: 15px;
+    animation: heroArrowBounce 2s infinite;
+}
+
+@keyframes heroArrowBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(4px);
+    }
+}
+
+/* ---------- Планшеты ---------- */
+
+@media (max-width: 1080px) {
+    .hero.hero-v2 {
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+
+    .hero-layout {
+        gap: 30px;
+        grid-template-columns: minmax(0, 1fr) minmax(0, .95fr);
+    }
+
+    .hero-title.hero-title-v2 {
+        font-size: clamp(41px, 5.1vw, 58px);
+    }
+
+    .hero-visual-top {
+        padding: 18px;
+    }
+
+    .hero-visual-bottom {
+        padding: 17px 18px;
+    }
+
+    .hero-float-card {
+        right: -10px;
+    }
+
+    .hero-vertical-text {
+        display: none;
+    }
+
+    .hero-features {
+        gap: 12px;
+    }
+}
+
+/* ---------- Телефоны ---------- */
+
+@media (max-width: 760px) {
+    .hero.hero-v2 {
+        min-height: auto;
+        padding: 125px 21px 90px;
+        text-align: left;
+    }
+
+    .hero-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 42px;
+    }
+
+    .hero-copy {
+        width: 100%;
+    }
+
+    .hero-eyebrow {
+        gap: 8px;
+        margin-bottom: 22px;
+        font-size: 9px;
+    }
+
+    .hero-title.hero-title-v2 {
+        max-width: 620px;
+        margin-bottom: 21px;
+        font-size: clamp(39px, 9.3vw, 60px);
+        line-height: 1.1;
+        letter-spacing: -.06em;
+    }
+
+    .hero-title-v2 .hero-title-outline {
+        margin-top: 5px;
+        font-size: .52em;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle.hero-subtitle-v2 {
+        max-width: 510px;
+        margin-bottom: 26px;
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .hero-buttons.hero-buttons-v2 {
+        gap: 10px;
+    }
+
+    .hero-buttons-v2 .btn {
+        min-height: 50px;
+        padding: 14px 17px;
+        font-size: 12px;
+    }
+
+    .hero-buttons-v2 .hero-main-btn {
+        min-width: 185px;
+    }
+
+    .hero-features {
+        margin-top: 29px;
+        padding-top: 22px;
+        gap: 14px;
+    }
+
+    .hero-feature-separator {
+        display: none;
+    }
+
+    .hero-visual {
+        width: calc(100% - 5px);
+        margin-right: 5px;
+    }
+
+    .hero-visual-card {
+        border-radius: 19px;
+        transform: none;
+    }
+
+    .hero-visual-card:hover {
+        transform: translateY(-2px);
+    }
+
+    .hero-visual-top {
+        padding: 15px;
+    }
+
+    .hero-visual-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 18px;
+    }
+
+    .hero-visual-brand strong {
+        font-size: 9px;
+    }
+
+    .hero-visual-brand > div > span {
+        font-size: 8px;
+    }
+
+    .hero-visual-status {
+        padding: 7px;
+        font-size: 8px;
+    }
+
+    .hero-blueprint {
+        padding: 10px 3px 0;
+    }
+
+    .hero-train-svg {
+        min-height: 0;
+    }
+
+    .hero-visual-bottom {
+        padding: 14px 15px;
+    }
+
+    .hero-visual-bottom strong {
+        font-size: 11px;
+    }
+
+    .hero-visual-caption {
+        font-size: 8px;
+    }
+
+    .hero-visual-badge {
+        width: 33px;
+        height: 33px;
+        flex-basis: 33px;
+    }
+
+    .hero-float-card {
+        right: -5px;
+        bottom: 75px;
+        padding: 10px 12px;
+    }
+
+    .hero-float-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .hero-float-card strong {
+        font-size: 10px;
+    }
+
+    .hero-float-card > div > span {
+        font-size: 9px;
+    }
+
+    .hero-scroll-v2 {
+        bottom: 25px;
+        white-space: nowrap;
+        font-size: 8px;
+    }
+}
+
+/* ---------- Очень маленькие экраны ---------- */
+
+@media (max-width: 390px) {
+    .hero.hero-v2 {
+        padding-right: 17px;
+        padding-left: 17px;
+    }
+
+    .hero-title.hero-title-v2 {
+        font-size: 37px;
+    }
+
+    .hero-buttons.hero-buttons-v2 {
+        align-items: stretch;
+    }
+
+    .hero-buttons-v2 .hero-main-btn {
+        min-width: 0;
+        flex: 1 1 100%;
+    }
+
+    .hero-buttons-v2 .hero-secondary-btn {
+        flex: 1 1 100%;
+    }
+
+    .hero-float-card {
+        right: -3px;
+        bottom: 60px;
+    }
+
+    .hero-visual-status {
+        letter-spacing: 0;
+    }
+}
+
+/* ---------- Уважение к настройке анимации ОС ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+    .hero-copy,
+    .hero-visual,
+    .hero-train-svg,
+    .hero-float-card,
+    .hero-status-dot,
+    .hero-scroll-arrow {
+        animation: none !important;
+    }
+
+    .hero-visual-card {
+        transform: none !important;
+    }
+}
