@@ -1,0 +1,579 @@
+/* =====================================================
+   NEXI4X IR PACKS — INTERFACE UPGRADE
+   Дополнительные стили. Старый style.css не удалять.
+   ===================================================== */
+
+:root {
+    --ux-accent: #8b7cff;
+    --ux-accent-2: #48d9cf;
+    --ux-panel: rgba(18, 20, 32, .88);
+    --ux-border: rgba(255, 255, 255, .10);
+    --ux-muted: #a6a9bf;
+}
+
+::selection {
+    background: rgba(139, 124, 255, .38);
+    color: #fff;
+}
+
+html {
+    scroll-padding-top: 100px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+button,
+input,
+select {
+    font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 2px solid var(--ux-accent-2);
+    outline-offset: 4px;
+}
+
+.header {
+    border-bottom: 1px solid transparent;
+}
+
+.header.scrolled {
+    border-bottom-color: var(--ux-border);
+}
+
+.logo {
+    user-select: none;
+}
+
+.logo-icon {
+    filter: drop-shadow(0 0 12px rgba(139, 124, 255, .35));
+}
+
+.nav-link {
+    transition: color .2s ease, opacity .2s ease;
+}
+
+/* Каталог */
+
+.trains-section {
+    position: relative;
+    padding-top: 100px;
+}
+
+.trains-section .container {
+    width: min(1400px, 100%);
+}
+
+.catalog-toolbar {
+    margin: 30px 0 24px;
+    padding: 22px;
+    background: var(--ux-panel);
+    border: 1px solid var(--ux-border);
+    border-radius: 22px;
+    backdrop-filter: blur(18px);
+    box-shadow: 0 18px 60px rgba(0, 0, 0, .16);
+}
+
+.catalog-toolbar__top {
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) auto;
+    gap: 14px;
+    align-items: center;
+}
+
+.catalog-search {
+    position: relative;
+}
+
+.catalog-search__icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    opacity: .65;
+    font-size: 18px;
+}
+
+.catalog-input,
+.catalog-select {
+    width: 100%;
+    min-height: 48px;
+    color: #fff;
+    background: rgba(255, 255, 255, .045);
+    border: 1px solid var(--ux-border);
+    border-radius: 13px;
+    padding: 12px 14px;
+    transition: border-color .2s, background .2s, box-shadow .2s;
+}
+
+.catalog-input {
+    padding-left: 45px;
+}
+
+.catalog-input::placeholder {
+    color: #8f93a9;
+}
+
+.catalog-input:focus,
+.catalog-select:focus {
+    outline: none;
+    border-color: var(--ux-accent);
+    background: rgba(139, 124, 255, .07);
+    box-shadow: 0 0 0 3px rgba(139, 124, 255, .12);
+}
+
+.catalog-select {
+    width: auto;
+    min-width: 190px;
+    cursor: pointer;
+}
+
+.catalog-select option {
+    color: #fff;
+    background: #171827;
+}
+
+.catalog-toolbar__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 18px;
+}
+
+.catalog-toolbar__group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.catalog-label {
+    color: var(--ux-muted);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    margin-right: 4px;
+}
+
+.catalog-chip,
+.catalog-tool-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    min-height: 38px;
+    padding: 8px 13px;
+    border: 1px solid var(--ux-border);
+    border-radius: 11px;
+    background: rgba(255, 255, 255, .035);
+    color: #c7c9d9;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform .2s, color .2s, background .2s, border-color .2s;
+}
+
+.catalog-chip:hover,
+.catalog-tool-btn:hover {
+    transform: translateY(-1px);
+    color: #fff;
+    border-color: rgba(139, 124, 255, .55);
+}
+
+.catalog-chip.active {
+    color: #fff;
+    background: rgba(139, 124, 255, .19);
+    border-color: rgba(139, 124, 255, .55);
+}
+
+.catalog-chip__count {
+    display: inline-grid;
+    place-items: center;
+    min-width: 21px;
+    height: 21px;
+    padding: 0 5px;
+    background: rgba(255, 255, 255, .09);
+    border-radius: 7px;
+    font-size: 11px;
+}
+
+.catalog-results {
+    color: var(--ux-muted);
+    font-size: 13px;
+}
+
+.catalog-results strong {
+    color: #fff;
+    font-weight: 700;
+}
+
+.catalog-hint {
+    color: #777d96;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+/* Карточки */
+
+.trains-grid {
+    align-items: stretch;
+}
+
+.train-card {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    border: 1px solid var(--ux-border);
+    transition: transform .25s ease, border-color .25s ease,
+                box-shadow .25s ease, opacity .2s ease;
+}
+
+.train-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0;
+    background: linear-gradient(
+        140deg,
+        rgba(139, 124, 255, .09),
+        transparent 48%,
+        rgba(72, 217, 207, .04)
+    );
+    transition: opacity .25s ease;
+}
+
+.train-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(139, 124, 255, .48);
+    box-shadow: 0 18px 42px rgba(0, 0, 0, .25);
+}
+
+.train-card:hover::after {
+    opacity: 1;
+}
+
+.train-card[hidden] {
+    display: none !important;
+}
+
+.train-image {
+    transition: transform .45s cubic-bezier(.2, .7, .2, 1);
+}
+
+.train-card:hover .train-image {
+    transform: scale(1.035);
+}
+
+.train-info {
+    position: relative;
+}
+
+.train-name {
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+}
+
+.train-description {
+    line-height: 1.65;
+}
+
+.train-versions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.version-tag {
+    border: 1px solid rgba(139, 124, 255, .17);
+    transition: background .2s, border-color .2s;
+}
+
+.train-card:hover .version-tag {
+    border-color: rgba(139, 124, 255, .3);
+}
+
+.train-actions {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.train-actions .btn-download,
+.train-actions .btn-info {
+    flex: 1 1 90px;
+}
+
+.train-actions .ux-icon-btn {
+    flex: 0 0 42px;
+}
+
+.ux-icon-btn {
+    display: inline-grid;
+    place-items: center;
+    width: 42px;
+    min-width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid var(--ux-border);
+    border-radius: 12px;
+    color: #c7c9d9;
+    background: rgba(255, 255, 255, .045);
+    cursor: pointer;
+    transition: color .2s, background .2s, border-color .2s,
+                transform .2s;
+}
+
+.ux-icon-btn:hover {
+    transform: translateY(-2px);
+    color: #fff;
+    border-color: var(--ux-accent);
+}
+
+.ux-icon-btn.is-favorite {
+    color: #ff91b8;
+    background: rgba(255, 91, 153, .12);
+    border-color: rgba(255, 91, 153, .35);
+}
+
+.ux-card-number {
+    display: inline-block;
+    color: #777d96;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    margin-bottom: 7px;
+}
+
+/* Пустая выдача */
+
+.catalog-empty {
+    grid-column: 1 / -1;
+    padding: 60px 20px;
+    text-align: center;
+    border: 1px dashed var(--ux-border);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, .02);
+}
+
+.catalog-empty__icon {
+    font-size: 42px;
+    margin-bottom: 12px;
+}
+
+.catalog-empty h3 {
+    color: #fff;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.catalog-empty p {
+    color: var(--ux-muted);
+    margin-bottom: 18px;
+}
+
+.catalog-empty button {
+    padding: 10px 16px;
+    color: #fff;
+    background: rgba(139, 124, 255, .18);
+    border: 1px solid rgba(139, 124, 255, .4);
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+/* Уведомления */
+
+.ux-toast-stack {
+    position: fixed;
+    z-index: 3000;
+    right: 22px;
+    bottom: 22px;
+    display: grid;
+    gap: 10px;
+    width: min(360px, calc(100vw - 32px));
+    pointer-events: none;
+}
+
+.ux-toast {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 15px 17px;
+    color: #f5f5ff;
+    background: rgba(23, 25, 40, .96);
+    border: 1px solid var(--ux-border);
+    border-radius: 15px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, .32);
+    backdrop-filter: blur(15px);
+    animation: uxToastIn .25s ease both;
+}
+
+.ux-toast__mark {
+    color: var(--ux-accent-2);
+    font-weight: 800;
+}
+
+.ux-toast.is-leaving {
+    animation: uxToastOut .2s ease both;
+}
+
+@keyframes uxToastIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes uxToastOut {
+    to { opacity: 0; transform: translateY(8px); }
+}
+
+/* Кнопка наверх */
+
+.ux-back-top {
+    position: fixed;
+    z-index: 900;
+    right: 24px;
+    bottom: 24px;
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: 20px;
+    background: rgba(139, 124, 255, .85);
+    border: 1px solid rgba(255, 255, 255, .18);
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, .22);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity .2s, visibility .2s, transform .2s;
+}
+
+.ux-back-top.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.ux-back-top:hover {
+    background: #7968f4;
+}
+
+/* Модальное окно */
+
+.modal-content {
+    border: 1px solid var(--ux-border);
+    box-shadow: 0 25px 100px rgba(0, 0, 0, .45);
+}
+
+.modal-close {
+    transition: transform .2s, color .2s;
+}
+
+.modal-close:hover {
+    transform: rotate(90deg);
+    color: #ff91b8;
+}
+
+.versions-list {
+    display: grid;
+    gap: 10px;
+}
+
+.version-item,
+.version-option {
+    transition: border-color .2s, background .2s, transform .2s;
+}
+
+/* Секция проекта */
+
+.glass-card {
+    border: 1px solid var(--ux-border);
+    box-shadow: 0 20px 70px rgba(0, 0, 0, .12);
+}
+
+.stat-item {
+    transition: transform .2s;
+}
+
+.stat-item:hover {
+    transform: translateY(-3px);
+}
+
+.footer-link {
+    transition: color .2s, transform .2s;
+}
+
+.footer-link:hover {
+    transform: translateX(3px);
+}
+
+/* Мобильные устройства */
+
+@media (max-width: 760px) {
+    .trains-section {
+        padding-top: 65px;
+    }
+
+    .catalog-toolbar {
+        padding: 15px;
+        margin-top: 22px;
+        border-radius: 17px;
+    }
+
+    .catalog-toolbar__top {
+        grid-template-columns: 1fr;
+    }
+
+    .catalog-select {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .catalog-toolbar__bottom {
+        align-items: flex-start;
+    }
+
+    .catalog-toolbar__group {
+        width: 100%;
+    }
+
+    .catalog-results {
+        width: 100%;
+    }
+
+    .ux-back-top {
+        right: 14px;
+        bottom: 14px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .ux-toast-stack {
+        right: 16px;
+        bottom: 68px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: .01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: .01ms !important;
+    }
+}
